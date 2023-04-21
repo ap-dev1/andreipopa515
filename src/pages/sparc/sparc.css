@@ -1,0 +1,115 @@
+.sparc {
+    margin: 1rem;
+    text-align: center;
+}
+
+.sparc .description {
+    width: 600px;
+    text-align: left;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+}
+
+
+.sparc .sparc-card {
+    width: 500px;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    padding: .5rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: 1px solid #555;
+
+}
+
+.sparc .sparc-card .title {
+    width: 400px;
+    margin: auto;
+    font-size: 1.2rem;
+    color: #222;
+}
+
+
+.sparc .sparc-card .authors {
+    width: 400px;
+    margin: auto;
+    font-size: 1rem;
+    color: #333;
+}
+
+
+.sparc .sparc-card .abstract {
+    width: 400px;
+    text-align: left;
+    margin: .5rem auto;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.cutoff-text {
+    --max-lines: 3;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines)
+}
+
+
+.cutoff-text-v2 {
+    --max-lines: 4;
+    --line-height: 1.4;
+
+    height: calc(var(--max-lines) * 1rem * var(--line-height));
+    line-height: var(--line-height);
+    overflow: hidden;
+    position: relative;
+}
+
+/* .cutoff-text-v2::before {
+    content: "";
+    position: absolute;
+    height: calc(1em * var(--line-height));
+    width: 100%;
+    bottom: 0;
+    pointer-events: none;
+    background: linear-gradient(to bottom, transparent, white)
+} */
+
+.cutoff-text-v2:has(+ .expand-cbx:not(:checked))::before {
+    content: "";
+    position: absolute;
+    height: calc(2em * var(--line-height));
+    width: 100%;
+    bottom: 0;
+    pointer-events: none;
+    background: linear-gradient(to bottom, transparent, white)
+}
+
+.expand-cbx {
+    appearance: none;
+    border: 1px solid grey;
+    padding: .5em;
+    border-radius: .25em;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+
+.expand-cbx:hover {
+    background-color: #CCC;
+}
+
+
+.expand-cbx::before {
+    content: "Expand";
+}
+
+
+.expand-cbx:checked::before {
+    content: "Collapse";
+}
+
+.cutoff-text-v2:has(+ .expand-cbx:checked) {
+    height: auto
+}
