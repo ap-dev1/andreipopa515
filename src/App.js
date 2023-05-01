@@ -23,10 +23,11 @@ function App() {
 
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
+          {/* <Route path="/adhd" element={<AdhdPage />}></Route> */}
+
           <Route path="/theory" element={<Theory />}></Route>
           <Route path="/sparc" element={<Sparc2016 />}></Route>
           <Route path="/service" element={<ServicePage />}></Route>
-          <Route path="/adhd" element={<AdhdPage />}></Route>
           <Route path="/etbd" element={<EtbdPage />}></Route>
 
 

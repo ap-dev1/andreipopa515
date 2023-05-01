@@ -7,9 +7,10 @@ export default function NavBar() {
 
         <ul>
             {/* <CustomLink to="/">Home</CustomLink> */}
+            {/* <CustomLink to="/adhd">adhd</CustomLink> */}
+
             <CustomLink to="/theory" >Theory</CustomLink>
             <CustomLink to="/service">Service</CustomLink>
-            <CustomLink to="/adhd">adhd</CustomLink>
             <CustomLink to="/etbd">etbd</CustomLink>
             <CustomLink to="/sparc">SpARC</CustomLink>
         </ul>

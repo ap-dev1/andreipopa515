@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+## This repo replaces www.andreipopa515.com, my first personal website published in 2015.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Contact and background 
+Portfolio: [https://www.andreipopa.dev/](https://www.andreipopa.dev/) 
 
-## Available Scripts
+The Emergence of Individuality: [https://psyarxiv.com/m87an/](https://psyarxiv.com/m87an/)  
+Imperfect automata: [https://psyarxiv.com/wgp4e/](https://psyarxiv.com/wgp4e/)  
 
-In the project directory, you can run:
+Google scholar: [https://scholar.google.com/citations?user=-C2nxZsAAAAJ](https://scholar.google.com/citations?user=-C2nxZsAAAAJ)  
 
-### `npm start`
+Research Gate: [https://www.researchgate.net/profile/Andrei_Popa5](https://www.researchgate.net/profile/Andrei_Popa5)  
+Oopen Science: [https://osf.io/8hz5f/](https://osf.io/8hz5f/)[https://osf.io/8hz5f/](https://osf.io/8hz5f/)  
+Google drive: [https://drive.google.com/drive/folders/1d6QlunZ_zh-mTXB1H2u0C5DQC7Vjmq5U](https://drive.google.com/drive/folders/1d6QlunZ_zh-mTXB1H2u0C5DQC7Vjmq5U)  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Twitter: [https://twitter.com/fixmachina](https://twitter.com/fixmachina)  
+Facebook: [https://www.facebook.com/andrei.popa.1000/](https://www.facebook.com/andrei.popa.1000/)  
+Youtube: [https://www.youtube.com/@andreipopa-yh2bi](https://www.youtube.com/@andreipopa-yh2bi)  
+Linkedin: [https://www.linkedin.com/in/dr-andrei-popa/](https://www.linkedin.com/in/dr-andrei-popa/)  
+Github: [https://github.com/ap-dev1](https://github.com/ap-dev1)  
+Mastodon: [https://ohai.social/@fixmachina](https://ohai.social/@fixmachina)   
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Popa 2009, Masters thesis: [https://etd.library.emory.edu/concern/etds/8k71nj12p?locale=en](https://etd.library.emory.edu/concern/etds/8k71nj12p?locale=en)  
+Popa 2013, dissertation: [https://etd.library.emory.edu/concern/etds/9880vr10s?locale=en](https://etd.library.emory.edu/concern/etds/9880vr10s?locale=en)  
+Hackett 2019, fascinating: [https://etd.library.emory.edu/concern/etds/rr171z32k?locale=en](https://etd.library.emory.edu/concern/etds/rr171z32k?locale=en)  
+McDowell’s Lab: [http://psychology.emory.edu/clinical/mcdowell/labwebsite/People.htm](http://psychology.emory.edu/clinical/mcdowell/labwebsite/People.htm)  
+Complaint 2020: [https://www.mediafire.com/file/vq108bgxlsrvuk4/POPA_v_MCDOWELL_2020.pdf/file](https://www.mediafire.com/file/vq108bgxlsrvuk4/POPA_v_MCDOWELL_2020.pdf/file)  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Phone: 404-484-8368  
+Buy me a coffee: [https://ko-fi.com/fixmachina](https://ko-fi.com/fixmachina)  

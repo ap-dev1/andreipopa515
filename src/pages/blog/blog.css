@@ -9,3 +9,53 @@
 .blog-posts .post .date {
     font-size: 14px;
 }
+
+
+
+.cutoff-text-v2 {
+    --max-lines: 4;
+    --line-height: 1.4;
+
+    height: calc(var(--max-lines) * 1rem * var(--line-height));
+    line-height: var(--line-height);
+    overflow: hidden;
+    position: relative;
+}
+
+.cutoff-text-v2:has(+ .expand-cbx:not(:checked))::before {
+    content: "";
+    position: absolute;
+    height: calc(2em * var(--line-height));
+    width: 100%;
+    bottom: 0;
+    pointer-events: none;
+    background: linear-gradient(to bottom, transparent, white)
+}
+
+.expand-cbx {
+    appearance: none;
+    border: 1px solid grey;
+    padding: .5em;
+    border-radius: .25em;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+
+.expand-cbx:hover {
+    background-color: #CCC;
+}
+
+
+.expand-cbx::before {
+    content: "Expand";
+}
+
+
+.expand-cbx:checked::before {
+    content: "Collapse";
+}
+
+.cutoff-text-v2:has(+ .expand-cbx:checked) {
+    height: auto
+}
