@@ -1,11 +1,12 @@
-import "./adhd.css";
 
 import React from "react";
-// import Slider from "react-slick";
-// import 'slick-carousel/slick/slick.css'
-// import 'slick-carousel/slick/slick-theme.css'
 
-import AdhdEtbd from "./AdhdEtbd"
+import AdhdHeader from "./AdhdHeader";
+
+import SectionTemplate from "./SectionTemplate";
+import AdhdReferences from "./AdhdReferences";
+import AdhdFooter from "./AdhdFooter";
+
 import { getAdhdText } from "./adhdText";
 
 
@@ -13,67 +14,40 @@ export default function AdhdPage() {
 
     const adhdText = getAdhdText()
 
-    // const sliderSettings = {
-    //     dots: true,
-    //     infinite: false,
-    //     speed: 500,
-    //     slidesToShow: 6,
-    //     slidesToScroll: 1,
-
-    //     // arrows: true,
-    //     // adaptiveHeight: true,
-    //     // autoplay: true, //  default 3000 autoplaySpeed
-
-    // }
-
 
     return (
-        <div className="adhd">
+        <article
+            className="computational-adhd"
+            style={{
+                color: "#555",
+                fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"
+            }}
 
-            <article className="computational-adhd">
-
-                <h1>{adhdText.adhdMeta.title}</h1>
-                <h2>{adhdText.adhdMeta.author}</h2>
-                <h3>{adhdText.adhdMeta.affiliation}</h3>
-
-
-                <p className="abstract">
-                    <span>Abstract</span>
-                    {adhdText.adhdMeta.abstract}
-                </p>
+        >
 
 
-                <p className="author-note">
-                    <span>Author note</span>
-                    {adhdText.adhdMeta.authorNote}
-                </p>
-
-                <p className="author-contact">
-                    <span>Author information</span>
-                    {adhdText.adhdMeta.authorNote}
-                </p>
+            <AdhdHeader />
 
 
-                <div className="adhd-background">
-                    <span>Background</span>
-                    {adhdText.adhdBackground.map(item => {
-                        return (
-                            <p>{item}</p>
-                        )
-                    })}
-                </div>
+            <SectionTemplate sectionData={adhdText.adhdBackground}></SectionTemplate>
 
-                <AdhdEtbd />
+            <SectionTemplate sectionData={adhdText.etbdAdhd}></SectionTemplate>
 
-                {/* <div className="etbd-adhd">
+            <SectionTemplate sectionData={adhdText.equifinality}></SectionTemplate>
 
-                  
-                </div> */}
+            <SectionTemplate sectionData={adhdText.implications}></SectionTemplate>
 
+            <SectionTemplate sectionData={adhdText.disruptedDynamics}></SectionTemplate>
 
+            <SectionTemplate sectionData={adhdText.bitsToNeurons}></SectionTemplate>
 
-            </article >
+            <SectionTemplate sectionData={adhdText.nsRewardSystem}></SectionTemplate>
+            <SectionTemplate sectionData={adhdText.lowCod}></SectionTemplate>
+            <SectionTemplate sectionData={adhdText.molecularDynamics}></SectionTemplate>
 
-        </div >
+            <AdhdReferences />
+            <AdhdFooter />
+
+        </article >
     )
 }

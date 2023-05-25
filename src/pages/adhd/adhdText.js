@@ -26,25 +26,30 @@ const adhdText = {
         title: "Disrupted Neuronal Dynamics as the Formal Cause for ADHD symptomatology",
 
         author: "Andrei Popa",
-        affiliation: "Department of Psychology, Emory University, Atlanta, USA",
+        affiliation: "Department of Psychology, Emory University, Atlanta, GA",
+        abstract: "<b>Abstract. <b/> The ADHD literature abounds in knowledge about contributing factors, both biological and environmental (Mash & Wolfe, 2013), but their mechanisms of action are still to be identified (Mash & Wolfe, 2013; Mick et. al., 2010). Research on an evolutionary theory of behavior dynamics (ETBD; McDowell, 2004, 2013b) showed that certain experimental contexts produced behavioral symptoms that shared descriptive and functional similarities with core symptoms of ADHD (Popa, 2013). The purpose of this section is to explain how ADHD-like symptoms emerged in ETBD and to explore the implications for the emergence and developmental trajectory of ADHD symptoms in humans.",
+        keywords: ["etbd", "adhd", "computational model", "translational science"],
         contact: {
             email: "andreipopa515@gmail.com",
-            website1: "www.andreipopa515.com",
+            // website1: "www.andreipopa515.com",
             website2: "www.andreipopa.dev",
             address: "1165 Briarcliff Court NE, apartment 5, Atlanta, GA, 30306",
         },
-        abstract: "The ADHD literature abounds in knowledge about contributing factors, both biological and environmental (Mash & Wolfe, 2013), but their mechanisms of action are still to be identified (Mash & Wolfe, 2013; Mick et. al., 2010). Research on an evolutionary theory of behavior dynamics (ETBD; McDowell, 2004, 2013b) showed that certain experimental contexts produced behavioral symptoms that shared descriptive and functional similarities with core symptoms of ADHD (Popa, 2013). The purpose of this section is to explain how ADHD-like symptoms emerged in ETBD and to explore the implications for the emergence and developmental trajectory of ADHD symptoms in humans.",
     },
 
 
-    adhdBackground: [
-        "<b>Learning as evolution.</b> The evolutionary account of behavior dynamics conceptualizes behavior as a tool that operates on the environment, with more or less success. Behavioral strategies that prove successful tend to be repeated; those that do not, tend to be abandoned (Skinner, 1981, 1984).",
-        "<b>ETBD</b> The computational model discussed here (McDowell, 2004) instantiates the Skinnerian analogy between positive reinforcement and natural selection (Skinner, 1981). If learning - long-term change in behavior and knowledge due to experience - is an emergent property of evolutionary-like principles, then synthetic behavior produced by Darwinian processes should be indistinguishable from the behavior of living agents. For details, see ETBD",
-        "<b>Corroborating evidence.</b> Extensive experimentation showed qualitative and quantitative agreement between ETBD and real-world behavior (for a review see McDowell, 2013b).",
-        "<b>Predictions and translational relevance.<b/> In addition to recreating known phenomena, ETBD was shown to predict human behavior (Popa, 2013, Phase 2); to inform about mathematical descriptors of behaviors (Popa & McDowell, 2016); and to shed light on the nature and developmental trajectory of ADHD (Popa, 2013 - 2017; Popa & McDowell, 2011, 2016; Popa, Calvin, & McDowell, 2012, 2013, 2014)."
+    adhdBackground: {
+        title: "Background",
+        text: [
+            "<b>Learning as evolution. </b> The evolutionary account of behavior dynamics conceptualizes behavior as a tool that operates on the environment, with more or less success. Behavioral strategies that prove successful tend to be repeated; those that do not, tend to be abandoned (Skinner, 1981, 1984).",
+            "<b>ETBD. </b> The computational model discussed here (McDowell, 2004) instantiates the Skinnerian analogy between positive reinforcement and natural selection (Skinner, 1981). If learning - long-term change in behavior and knowledge due to experience - is an emergent property of evolutionary-like principles, then synthetic behavior produced by Darwinian processes should be indistinguishable from the behavior of living agents. For details, see ETBD",
+            "<b>Corroborating evidence. </b> Extensive experimentation showed qualitative and quantitative agreement between ETBD and real-world behavior (for a review see McDowell, 2013b).",
+            "<b>Predictions and translational relevance. <b/> In addition to recreating known phenomena, ETBD was shown to predict human behavior (Popa, 2013, Phase 2); to inform about mathematical descriptors of behaviors (Popa & McDowell, 2016); and to shed light on the nature and developmental trajectory of ADHD (Popa, 2013 - 2017; Popa & McDowell, 2011, 2016; Popa, Calvin, & McDowell, 2012, 2013, 2014)."
 
-    ],
+        ],
+        media: [],
 
+    },
 
     etbdAdhd: {
         title: "ETBD and ADHD",
@@ -161,6 +166,7 @@ const adhdText = {
         ],
         media: []
     },
+
 
     bitsToNeurons: {
         title: "From bits to neurons",

@@ -2,14 +2,19 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
 export default function NavBar() {
 
-    return <nav className="nav">
+    return <nav className="nav"
+        style={{
+            fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+        }}
+    >
         <Link to="/" className="site-title">Fix Machina</Link>
 
         <ul>
             {/* <CustomLink to="/">Home</CustomLink> */}
-            {/* <CustomLink to="/adhd">adhd</CustomLink> */}
 
-            <CustomLink to="/theory" >Theory</CustomLink>
+            <CustomLink to="/adhd">adhd</CustomLink>
+
+            {/* <CustomLink to="/theory" >Theory</CustomLink> */}
             <CustomLink to="/service">Service</CustomLink>
             <CustomLink to="/etbd">etbd</CustomLink>
             <CustomLink to="/sparc">SpARC</CustomLink>
