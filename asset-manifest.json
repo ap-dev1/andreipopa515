@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/andreipopa515/static/css/main.6764e7c4.css",
+    "main.js": "/andreipopa515/static/js/main.ebf26db3.js",
+    "static/media/adhd13-evolution-over-time-12k.gif": "/andreipopa515/static/media/adhd13-evolution-over-time-12k.9d95a641289d6ed26eeb.gif",
+    "static/media/zebra-fish-neurons.gif": "/andreipopa515/static/media/zebra-fish-neurons.d387f58561e59cb5c058.gif",
+    "static/media/change-in-state.gif": "/andreipopa515/static/media/change-in-state.62e266375fc78a5142f8.gif",
+    "static/media/adhd_02_impulsive_agent_good_environ.png": "/andreipopa515/static/media/adhd_02_impulsive_agent_good_environ.7eafef8856fed90e0b9e.png",
+    "static/media/adhd_01_impulsive_agent.png": "/andreipopa515/static/media/adhd_01_impulsive_agent.6b5397de8dd6af29e01f.png",
+    "static/media/adhd15-impulsive-agent-good-environ.webp": "/andreipopa515/static/media/adhd15-impulsive-agent-good-environ.df3db155f92cc42d1174.webp",
+    "static/media/adhd14-impulsive-agent-bad-environ.webp": "/andreipopa515/static/media/adhd14-impulsive-agent-bad-environ.3e5929a65c583b413f18.webp",
+    "static/media/adhd_03_impulsive_agent_great_environ_pn.webp": "/andreipopa515/static/media/adhd_03_impulsive_agent_great_environ_pn.fa3cab9cce33b7215b15.webp",
+    "static/media/adhd_05_control_agent_bad_environ.webp": "/andreipopa515/static/media/adhd_05_control_agent_bad_environ.d6852248d2bed9e4898c.webp",
+    "static/media/adhd_04_impulsive_agent_bad_environ.webp": "/andreipopa515/static/media/adhd_04_impulsive_agent_bad_environ.a2267fbb56b623647e7b.webp",
+    "static/media/adhd15-prob-same-class.webp": "/andreipopa515/static/media/adhd15-prob-same-class.09c14b0c57ed965360f3.webp",
+    "static/media/etbd02-behavior-output.png": "/andreipopa515/static/media/etbd02-behavior-output.116f6b979e6078686be4.png",
+    "static/media/adhd14-prob-same-class.webp": "/andreipopa515/static/media/adhd14-prob-same-class.2e4bc76e3db445a98686.webp",
+    "static/media/adhd08-equifinality-hd10-170-100-100.webp": "/andreipopa515/static/media/adhd08-equifinality-hd10-170-100-100.b86c8268729e5f8f757d.webp",
+    "static/media/adhd07-equifinality-hd12-34-50-75.webp": "/andreipopa515/static/media/adhd07-equifinality-hd12-34-50-75.f58cb6b9aad3ad369752.webp",
+    "static/media/adhd10-equifinality-hd12-34-50-75.webp": "/andreipopa515/static/media/adhd10-equifinality-hd12-34-50-75.f58cb6b9aad3ad369752.webp",
+    "static/media/adhd09-equifinality-hd12-17-200-30.webp": "/andreipopa515/static/media/adhd09-equifinality-hd12-17-200-30.25fe9579155bc7ea6409.webp",
+    "static/media/adhd12-equifinality-hd2-3-500-5.webp": "/andreipopa515/static/media/adhd12-equifinality-hd2-3-500-5.5eefc1750665ccf722e9.webp",
+    "static/media/adhd11-equifinality-hd10-17-500-20.webp": "/andreipopa515/static/media/adhd11-equifinality-hd10-17-500-20.684ddb48f64f654365fc.webp",
+    "static/media/mediafire.png": "/andreipopa515/static/media/mediafire.c620730e1d041343aab6.png",
+    "static/media/free-will-experiments.png": "/andreipopa515/static/media/free-will-experiments.2a96df59e44f8bced847.png",
+    "static/media/etbd01-target-classes.png": "/andreipopa515/static/media/etbd01-target-classes.5226084038ef9f6c60d3.png",
+    "static/media/etbd03-selection-and-fitness.webp": "/andreipopa515/static/media/etbd03-selection-and-fitness.d351fea6a5047d2a177c.webp",
+    "static/media/etbd04-recombination.webp": "/andreipopa515/static/media/etbd04-recombination.96929f173d1e18109071.webp",
+    "static/media/etbd05-mutation.webp": "/andreipopa515/static/media/etbd05-mutation.f9899bac0158609fcef1.webp",
+    "static/media/profile515.webp": "/andreipopa515/static/media/profile515.150b05daa6101cf873e0.webp",
+    "index.html": "/andreipopa515/index.html",
+    "main.6764e7c4.css.map": "/andreipopa515/static/css/main.6764e7c4.css.map",
+    "main.ebf26db3.js.map": "/andreipopa515/static/js/main.ebf26db3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6764e7c4.css",
+    "static/js/main.ebf26db3.js"
+  ]
+}
