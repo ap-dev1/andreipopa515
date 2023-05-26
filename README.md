@@ -1,7 +1,10 @@
-## This repo replaces www.andreipopa515.com, my first personal website published in 2015.
+## This repo replaces www.andreipopa515.com, my first personal website published via Wix back in 2015, when know anything about web development. Now I do, and since I will lose my domain name soon, I decided to rebuild it and deploy it here, via github pages. 
+
+### new link: https://ap-dev1.github.io/andreipopa515/
+
+### Portfolio: [https://www.andreipopa.dev/](https://www.andreipopa.dev/) 
 
 ### Contact and background 
-Portfolio: [https://www.andreipopa.dev/](https://www.andreipopa.dev/) 
 
 The Emergence of Individuality: [https://psyarxiv.com/m87an/](https://psyarxiv.com/m87an/)  
 Imperfect automata: [https://psyarxiv.com/wgp4e/](https://psyarxiv.com/wgp4e/)  
