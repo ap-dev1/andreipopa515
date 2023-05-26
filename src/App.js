@@ -23,7 +23,9 @@ function App() {
         {/* <Component /> */}
 
         <Routes>
+          {/* <Route path="/" element={<HomePage />}></Route> */}
           <Route path="/" element={<HomePage />}></Route>
+
           <Route path="/adhd" element={<AdhdPage />}></Route>
 
           {/* <Route path="/theory" element={<Theory />}></Route> */}
