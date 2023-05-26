@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ap-dev1.github.io/andreipopa515",
+  "homepage": "http://ap-dev1.github.io/andreipopa515",
   "name": "andreipopa",
   "version": "0.1.0",
   "private": true,
@@ -42,8 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
