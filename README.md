@@ -1,10 +1,10 @@
-## This repo replaces www.andreipopa515.com, my first personal website published via Wix back in 2015, when know anything about web development. Now I do, and since I will lose my domain name soon, I decided to rebuild it and deploy it here, via github pages. 
+## This repo replaces www.andreipopa515.com, my first personal website published via Wix back in 2015, when know anything about web development. Now I do, and since I will lose my domain name soon, I decided to rebuild it in React and to deploy it here. 
 
 ### new link: https://ap-dev1.github.io/andreipopa515/
 
 ### Portfolio: [https://www.andreipopa.dev/](https://www.andreipopa.dev/) 
 
-### Contact and background 
+### Background and contact 
 
 The Emergence of Individuality: [https://psyarxiv.com/m87an/](https://psyarxiv.com/m87an/)  
 Imperfect automata: [https://psyarxiv.com/wgp4e/](https://psyarxiv.com/wgp4e/)  
@@ -21,7 +21,6 @@ Youtube: [https://www.youtube.com/@andreipopa-yh2bi](https://www.youtube.com/@an
 Linkedin: [https://www.linkedin.com/in/dr-andrei-popa/](https://www.linkedin.com/in/dr-andrei-popa/)  
 Github: [https://github.com/ap-dev1](https://github.com/ap-dev1)  
 Mastodon: [https://ohai.social/@fixmachina](https://ohai.social/@fixmachina)   
-
 
 Popa 2009, Masters thesis: [https://etd.library.emory.edu/concern/etds/8k71nj12p?locale=en](https://etd.library.emory.edu/concern/etds/8k71nj12p?locale=en)  
 Popa 2013, dissertation: [https://etd.library.emory.edu/concern/etds/9880vr10s?locale=en](https://etd.library.emory.edu/concern/etds/9880vr10s?locale=en)  

@@ -9,8 +9,8 @@ import HomePage from "./pages/home/HomePage";
 import ServicePage from "./pages/service/ServicePage";
 import AdhdPage from "./pages/adhd/AdhdPage";
 import EtbdPage from "./pages/etbd/EtbdPage";
-
-
+import BlogPosts from "./pages/blog/BlogPosts";
+import LinksPage from "./pages/links/LinksPage";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -32,6 +32,9 @@ function App() {
           <Route path="/sparc" element={<Sparc2016 />}></Route>
           <Route path="/service" element={<ServicePage />}></Route>
           <Route path="/etbd" element={<EtbdPage />}></Route>
+          <Route path="/blog" element={<BlogPosts />}></Route>
+          <Route path="/links" element={<LinksPage />}></Route>
+
 
         </Routes>
 

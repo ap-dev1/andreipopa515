@@ -18,6 +18,9 @@ export default function NavBar() {
             <CustomLink to="/service">Service</CustomLink>
             <CustomLink to="/etbd">etbd</CustomLink>
             <CustomLink to="/sparc">SpARC</CustomLink>
+            <CustomLink to="/blog">Blog</CustomLink>
+            <CustomLink to="/links">Contact</CustomLink>
+
         </ul>
     </nav>
 }
