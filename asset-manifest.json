@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/andreipopa515/static/css/main.6764e7c4.css",
-    "main.js": "/andreipopa515/static/js/main.40863a17.js",
+    "main.css": "/andreipopa515/static/css/main.553a19fb.css",
+    "main.js": "/andreipopa515/static/js/main.4f89d1d3.js",
     "static/media/adhd13-evolution-over-time-12k.gif": "/andreipopa515/static/media/adhd13-evolution-over-time-12k.9d95a641289d6ed26eeb.gif",
     "static/media/zebra-fish-neurons.gif": "/andreipopa515/static/media/zebra-fish-neurons.d387f58561e59cb5c058.gif",
     "static/media/change-in-state.gif": "/andreipopa515/static/media/change-in-state.62e266375fc78a5142f8.gif",
@@ -26,14 +26,15 @@
     "static/media/etbd01-target-classes.png": "/andreipopa515/static/media/etbd01-target-classes.5226084038ef9f6c60d3.png",
     "static/media/etbd03-selection-and-fitness.webp": "/andreipopa515/static/media/etbd03-selection-and-fitness.d351fea6a5047d2a177c.webp",
     "static/media/etbd04-recombination.webp": "/andreipopa515/static/media/etbd04-recombination.96929f173d1e18109071.webp",
+    "static/media/346474668_741310824362862__n.jpg": "/andreipopa515/static/media/346474668_741310824362862_2634772592078921806_n.a5e7a5ac1594c3534029.jpg",
     "static/media/etbd05-mutation.webp": "/andreipopa515/static/media/etbd05-mutation.f9899bac0158609fcef1.webp",
     "static/media/profile515.webp": "/andreipopa515/static/media/profile515.150b05daa6101cf873e0.webp",
     "index.html": "/andreipopa515/index.html",
-    "main.6764e7c4.css.map": "/andreipopa515/static/css/main.6764e7c4.css.map",
-    "main.40863a17.js.map": "/andreipopa515/static/js/main.40863a17.js.map"
+    "main.553a19fb.css.map": "/andreipopa515/static/css/main.553a19fb.css.map",
+    "main.4f89d1d3.js.map": "/andreipopa515/static/js/main.4f89d1d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.6764e7c4.css",
-    "static/js/main.40863a17.js"
+    "static/css/main.553a19fb.css",
+    "static/js/main.4f89d1d3.js"
   ]
 }
