@@ -12,6 +12,8 @@ export default function NavBar() {
         <ul>
             {/* <CustomLink to="/">Home</CustomLink> */}
 
+            <CustomLink to="/faq">faq</CustomLink>
+
             <CustomLink to="/adhd">adhd</CustomLink>
 
             {/* <CustomLink to="/theory" >Theory</CustomLink> */}
@@ -20,6 +22,7 @@ export default function NavBar() {
             <CustomLink to="/sparc">SpARC</CustomLink>
             <CustomLink to="/blog">Blog</CustomLink>
             <CustomLink to="/links">Contact</CustomLink>
+            <CustomLink to="/imperfect-automata">Automata</CustomLink>
 
         </ul>
     </nav>

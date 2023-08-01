@@ -3,6 +3,7 @@
 // duration: 19:16
 
 import NavBar from "./NavBar";
+
 import Theory from "./pages/theory/Popa2019";
 import Sparc2016 from "./pages/sparc/Sparc2016";
 import HomePage from "./pages/home/HomePage";
@@ -13,11 +14,17 @@ import BlogPosts from "./pages/blog/BlogPosts";
 import LinksPage from "./pages/links/LinksPage";
 import { Routes, Route } from "react-router-dom";
 
+import Automaton from "./pages/automata/Automaton"
+import FaqPage from "./pages/faq/FaqPage";
+
 function App() {
 
   return (
     <>
+
       <NavBar />
+
+
 
       <div className="container">
         {/* <Component /> */}
@@ -27,6 +34,7 @@ function App() {
           <Route path="/" element={<HomePage />}></Route>
 
           <Route path="/adhd" element={<AdhdPage />}></Route>
+          <Route path="/faq" element={<FaqPage />}></Route>
 
           {/* <Route path="/theory" element={<Theory />}></Route> */}
           <Route path="/sparc" element={<Sparc2016 />}></Route>
@@ -34,7 +42,7 @@ function App() {
           <Route path="/etbd" element={<EtbdPage />}></Route>
           <Route path="/blog" element={<BlogPosts />}></Route>
           <Route path="/links" element={<LinksPage />}></Route>
-
+          <Route path="/imperfect-automata" element={<Automaton />}></Route>
 
         </Routes>
 

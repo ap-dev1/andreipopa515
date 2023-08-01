@@ -1,0 +1,88 @@
+.faq {
+    color: #444;
+    margin: auto;
+    margin-bottom: 20px;
+
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 550px;
+    /* border: 1px solid grey; */
+}
+
+/* 
+.faq h1 {
+    color: red;
+} */
+
+.collapsible .title-toggle:hover {
+    cursor: pointer;
+    background-color: #e4e4e4;
+}
+
+.collapsible .title-toggle {
+    background-color: #e4e4e48b;
+
+    /* margin: auto; */
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: left;
+    width: 550px;
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+    margin: 0px;
+    padding: .2rem .4rem;
+
+}
+
+
+
+.collapsible .subtitle {
+    /* border: 1px solid blue; */
+    font-size: .9rem;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: .2rem .4rem;
+
+}
+
+.collapsible .date {
+    /* color: green; */
+    /* border: 1px solid green; */
+    font-size: .8rem;
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+    padding: 0rem .4rem;
+    margin: 0px;
+
+
+}
+
+.collapsible .entry-tags {
+    /* border: 1px solid grey; */
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    font-size: .8rem;
+
+}
+
+.collapsible .entry-tags .tag {
+    margin-right: .2rem;
+    border: 1px solid grey;
+    padding: .2rem .4rem;
+}
+
+.collapsible .entry-content {
+    /* border: 1px solid green; */
+
+}
+
+
+.collapsible .entry-content .paragraph {
+    /* width: 400px */
+    font-size: .8rem;
+
+}

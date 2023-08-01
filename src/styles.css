@@ -23,8 +23,15 @@ body {
 }
 
 .site-title {
-    font-size: 2rem;
+    font-size: 1rem;
 }
+
+.site-title:hover {
+    background-color: #777;
+}
+
+
+
 
 .nav ul {
     padding: 0;
@@ -40,9 +47,9 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: .5rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 
@@ -51,10 +58,5 @@ body {
 }
 
 .nav li:hover {
-    background-color: #777;
-}
-
-
-.site-title:hover {
     background-color: #777;
 }

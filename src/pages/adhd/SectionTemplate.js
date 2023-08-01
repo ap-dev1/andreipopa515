@@ -1,6 +1,7 @@
 import "./section-template.css"
 import React, { useState } from "react";
 // import CollapsibleSection from "./CollapsibleSection";
+import parse from 'html-react-parser';
 
 
 export default function SectionTemplate(sectionData) {
@@ -16,7 +17,7 @@ export default function SectionTemplate(sectionData) {
                     className="toggle"
                     onClick={() => setopen(!open)}
                 >
-                    {sectionData.sectionData.title}
+                    {parse(sectionData.sectionData.title)}
                 </h4>
 
 
@@ -33,7 +34,7 @@ export default function SectionTemplate(sectionData) {
                                             textAlign: "left",
                                         }}
                                     >
-                                        {txt}
+                                        {parse(txt)}
                                     </p>
                                 )
                             })
@@ -71,7 +72,7 @@ export default function SectionTemplate(sectionData) {
                                 textAlign: "left",
                             }}
                         >
-                            {sectionData.sectionData.caption}
+                            {sectionData.sectionData.caption ? parse(sectionData.sectionData.caption) : sectionData.sectionData.caption}
                         </p>
                     </div>
                 }

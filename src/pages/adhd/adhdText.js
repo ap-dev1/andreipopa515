@@ -23,7 +23,7 @@ const adhdText = {
     adhdMeta: {
         authorNote: "This research was conducted by the author, as part of their dissertation project (Popa, 2013). It is supporting material for the thesis outlined under Theory: Popa, A. (2019). Psychology 2.0: The Emergence of Individuality. https://doi.org/10.31234/osf.io/m87an. It provides an example of how bio-sociocultural variables work together to produce ADHD symptoms in living organisms.  Parts of this work were discussed in: Popa (2013, 2014, 2015, 2016, 2017); Popa & McDowell (2011); Popa, Calvin, & McDowell (2012, 2013, 2014); in Popa & McDowell (2016); in McDowell (2019; p.141-142); in Calvin's dissertation (2019; p. 10-11, etc.), in Hackett's dissertation (2019), the li",
 
-        title: "Disrupted Neuronal Dynamics is ADHD",
+        title: "ADHD is Disrupted Neuronal Dynamics",
 
         author: "Andrei Popa",
         affiliation: "Department of Psychology, Emory University, Atlanta, GA",
@@ -38,13 +38,33 @@ const adhdText = {
     },
 
 
+    authorNote: {
+        title: "Author note",
+        text: [
+            "This research was conducted by the author, as part of their dissertation project (Popa, 2013). It is supporting material for the developmental framework outlined in Popa (2019a). Here I describe how bio-socio-cultural variables interact to produce  and ameliorate ADHD symptoms. This paper is based on the translational portion of my dissertation (Popa, 2013). It was initially included in Popa & McDowell (2016) but my former mentor and Amy Odum suggested to remove it, so I did. Parts of this work were later discussed in:  Popa (2014, 2015, 2016, 2017);  Popa & McDowell (2011); Popa, Calvin, & McDowell (2012, 2013, 2014); McDowell (2019; p.141-142); in Calvin (2017), in Hackett (2019)."
+
+        ],
+        media: [],
+
+    },
+
+    adhdAbstract: {
+        title: "Abstract",
+        text: [
+            "The ADHD literature abounds in knowledge about contributing factors, both biological and environmental (Mash & Wolfe, 2013), but their mechanisms of action are still to be identified (Mash & Wolfe, 2013; Mick et. al., 2010). Research on an evolutionary theory of behavior dynamics (ETBD; McDowell, 2004, 2013b) showed that certain experimental contexts produced behavioral symptoms that shared descriptive and functional similarities with core symptoms of ADHD (Popa, 2013). The purpose of this section is to explain how ADHD-like symptoms emerged in ETBD and to explore the implications for the emergence and developmental trajectory of ADHD symptoms in humans."
+
+        ],
+        media: [],
+
+    },
+
     adhdBackground: {
         title: "Background",
         text: [
             "<b>Learning as evolution. </b> The evolutionary account of behavior dynamics conceptualizes behavior as a tool that operates on the environment, with more or less success. Behavioral strategies that prove successful tend to be repeated; those that do not, tend to be abandoned (Skinner, 1981, 1984).",
             "<b>ETBD. </b> The computational model discussed here (McDowell, 2004) instantiates the Skinnerian analogy between positive reinforcement and natural selection (Skinner, 1981). If learning - long-term change in behavior and knowledge due to experience - is an emergent property of evolutionary-like principles, then synthetic behavior produced by Darwinian processes should be indistinguishable from the behavior of living agents. For details, see ETBD",
             "<b>Corroborating evidence. </b> Extensive experimentation showed qualitative and quantitative agreement between ETBD and real-world behavior (for a review see McDowell, 2013b).",
-            "<b>Predictions and translational relevance. <b/> In addition to recreating known phenomena, ETBD was shown to predict human behavior (Popa, 2013, Phase 2); to inform about mathematical descriptors of behaviors (Popa & McDowell, 2016); and to shed light on the nature and developmental trajectory of ADHD (Popa, 2013 - 2017; Popa & McDowell, 2011, 2016; Popa, Calvin, & McDowell, 2012, 2013, 2014)."
+            "<b>Predictions and translational relevance. </b> In addition to recreating known phenomena, ETBD was shown to predict human behavior (Popa, 2013, Phase 2); to inform about mathematical descriptors of behaviors (Popa & McDowell, 2016); and to shed light on the nature and developmental trajectory of ADHD (Popa, 2013 - 2017; Popa & McDowell, 2011, 2016; Popa, Calvin, & McDowell, 2012, 2013, 2014)."
 
         ],
         media: [],

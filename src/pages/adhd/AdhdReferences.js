@@ -9,18 +9,25 @@ export default function AdhdReferences() {
     return (
         <>
 
-            <section className="collapsible-section" >
+            <section
+                // className="collapsible-section" 
+                className="collapsible"
+
+            >
 
                 <h4
                     className="toggle"
                     onClick={() => setopen(!open)}
-                    style={{
-                        textAlign: "left",
-                        maxWidth: "500px",
-                        margin: "auto",
-                        fontSize: "1.2rem",
-                        fontWeight: "400",
-                    }}
+                // style={{
+                //     textAlign: "center",
+                //     backgroundColor: "darkslategrey",
+                //     color: "whitesmoke",
+                //     paddingBottom: "3px",
+                //     maxWidth: "500px",
+                //     margin: "auto",
+                //     fontSize: "1.2rem",
+                //     fontWeight: "500",
+                // }}
                 >
                     References
                 </h4>

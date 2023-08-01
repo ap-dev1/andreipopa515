@@ -2,10 +2,9 @@
 import React from "react";
 
 import AdhdHeader from "./AdhdHeader";
-
 import SectionTemplate from "./SectionTemplate";
 import AdhdReferences from "./AdhdReferences";
-import AdhdFooter from "./AdhdFooter";
+import ContactAuthor from "./ContactAuthor";
 
 import { getAdhdText } from "./adhdText";
 
@@ -25,9 +24,15 @@ export default function AdhdPage() {
 
         >
 
-
             <AdhdHeader />
 
+            <ContactAuthor />
+
+
+            <SectionTemplate sectionData={adhdText.authorNote}></SectionTemplate>
+
+
+            <SectionTemplate sectionData={adhdText.adhdAbstract}></SectionTemplate>
 
             <SectionTemplate sectionData={adhdText.adhdBackground}></SectionTemplate>
 
@@ -46,7 +51,7 @@ export default function AdhdPage() {
             <SectionTemplate sectionData={adhdText.molecularDynamics}></SectionTemplate>
 
             <AdhdReferences />
-            <AdhdFooter />
+
 
         </article >
     )
