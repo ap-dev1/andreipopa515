@@ -8,11 +8,13 @@ export default function NavBar() {
     //     fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
     // }}
     >
-        <Link to="/" className="site-title">Home</Link>
+        {/* <Link to="/" className="site-title">Home</Link> */}
 
         <ul>
+
             {/* <CustomLink to="/">Home</CustomLink> */}
 
+            <CustomLink to="/">Home</CustomLink>
 
             <CustomLink to="/backstory">Backstory
                 <sup className="new">
@@ -20,7 +22,7 @@ export default function NavBar() {
                 </sup >
             </CustomLink>
 
-            <CustomLink to="/my-emory-experience">My Emory experience
+            <CustomLink to="/my-emory-experience">Emory
                 <sup className="new">
                     8.8.2023
                 </sup >
@@ -41,6 +43,13 @@ export default function NavBar() {
             <CustomLink to="/etbd">etbd</CustomLink>
             <CustomLink to="/sparc">SpARC</CustomLink>
             <CustomLink to="/blog">Blog</CustomLink>
+
+            <CustomLink to="/letters">Letters
+                <sup className="new">
+                    8.9.2023
+                </sup >
+            </CustomLink>
+
             <CustomLink to="/links">Contact</CustomLink>
             {/* <CustomLink to="/imperfect-automata">Automata</CustomLink> */}
 

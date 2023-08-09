@@ -11,14 +11,24 @@ export default function SectionTemplate(sectionData) {
         <>
 
 
-            <section className="adhd-section collapsible">
+            <article className="adhd-article collapsible">
 
-                <h4
-                    className="toggle"
-                    onClick={() => setopen(!open)}
-                >
-                    {parse(sectionData.sectionData.title)}
-                </h4>
+                <header>
+                    <h4
+                        className="toggle"
+                        onClick={() => setopen(!open)}
+                    >
+                        {parse(sectionData.sectionData.title)}
+                    </h4>
+
+                    <h4
+                        className="subtitle"
+                        style={{}}
+                    >
+                        {sectionData.sectionData.subtitle ? parse(sectionData.sectionData.subtitle) : null}
+                    </h4>
+
+                </header>
 
 
                 {open
@@ -81,7 +91,7 @@ export default function SectionTemplate(sectionData) {
 
 
 
-            </section>
+            </article>
         </>
     )
 }

@@ -18,6 +18,7 @@ import Automaton from "./pages/automata/Automaton"
 import FaqPage from "./pages/faq/FaqPage";
 import BackstoryPage from "./pages/backstory/BackstoryPage"
 import EmoryExperience from "./pages/emory/EmoryExperience"
+import LettersPage from "./pages/letters/LettersPage";
 
 function App() {
 
@@ -47,6 +48,8 @@ function App() {
           <Route path="/service" element={<ServicePage />}></Route>
           <Route path="/etbd" element={<EtbdPage />}></Route>
           <Route path="/blog" element={<BlogPosts />}></Route>
+          <Route path="/letters" element={<LettersPage />}></Route>
+
           <Route path="/links" element={<LinksPage />}></Route>
           {/* <Route path="/imperfect-automata" element={<Automaton />}></Route> */}
 

@@ -10,9 +10,12 @@ export default function NotWanted432() {
         date = "August 8, 2023",
         tags = [],
         text1 = [
-            "I was born in 1980, in Romania, 10 years before the fall of communism. My father is Ion Popa, back then an officer in the Romanian Navy (not Stasi). My mother is Carmen Talmaciu, back then Popa, then Butuc, now back to Talmaciu, her maiden name. She graduated from University of Bucharest with a degree in economics. I don't know much else about her life.",
-            "My parents didn't want me. According to my mother, I would have been her nine dark-alley abortion and that wasn't feasible for medical reasons. She knew because she asked. The only reason she married my dad was because she couldn’t prevent my existence.",
-            "After she had me she didn’t want to raise me. If not for her parents, I have no doubt she would have left me in an orphanage or a store or something."
+            "I was born in 1980, in Romania, to parents who didn't want me, or each other. I don't know much about their lives, they rarely volunteered any details.",
+            "My father, Ion Popa, was an officer in the Romanian Navy, not Stasi. After the revolution he started a pharma distribution company (Medifarm-Montero, in Constanta). He was a violent drunk with a god complex, who got off on inspiring fear.",
+            "My mother is Carmen Talmaciu, back then Popa, then Butuc, then back to Talmaciu. She graduated from University of Bucharest with a degree in economics. After the revolution she was head of human resources at Comvex, a large company in Constanta harbour.",
+            "According to her, I would have been her nine dark-alley abortion and that wasn't feasible for medical reasons. I don't know what Ion was to her, but if not for me they wouldn't have gotten married.",
+            "Their marriage lasted eight years, all horrible. ",
+            // "After she had me she didn’t want to raise me. If not for her parents, I have no doubt she would have left me in an orphanage or a store or something."
         ];
 
     return (

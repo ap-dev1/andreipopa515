@@ -124,7 +124,11 @@ export const faqData = [
     {
         question: "What does it mean to care about someone?",
 
-        answer: ["What do you point to and say “look, this is caring”? It has to be outside of what’s obvious, like wishing happy birthday, being polite, stuff that are present even when the members of the couple don’t actually care about each other. Here’s what I answered. Picture it: Friday evening, relatively early in the relationship. I’m ready for the weekend and for a cozy evening with my gf. I arrived at her place at 4pm, before her. I expected her around 5pm. She had given me a key so I let myself in, to discover that her dog had an accident all over the living room. I made sure Daisy was fine, I took a look around, I sighed, and made it sparkle by the time my gf got home. I could have closed the door, walk away, and come back later as if nothing happened. It was a pleasant evening. Look, caring."]
+        answer: [
+            "What do you point to and say “look, this is caring”? It has to be outside of what’s obvious, like wishing happy birthday, being polite, stuff that are present even when the members of the couple don’t actually care about each other. Here’s what I answered. ",
+            "<blockquote>Picture it, Friday evening, relatively early in the relationship. I’m ready for the weekend and for a cozy evening with my gf. I arrived at her place at 4pm, before her. I expected her around 5pm. She had given me a key so I let myself in, to discover that her dog had an accident all over the living room. I made sure Daisy was fine, I took a look around, I sighed, and made it sparkle by the time my gf got home. I could have closed the door, walk away, and come back later as if nothing happened. It was a pleasant evening. Look, caring.</blockquote>",
+            "I could have closed the door, walk away, and come back later as if nothing happened. It was a pleasant evening. Look, caring."
+        ]
     },
 
     {

@@ -73,6 +73,7 @@ const adhdText = {
 
     etbdAdhd: {
         title: "ETBD and ADHD",
+        subtitle: "Mutation rate produced computational ADHD; higher mutation rates produced more severe symptoms.",
         text: [
             "Popa (2013) showed that under certain experimental conditions (described later), the preference patterns produced by ETBD were strikingly similar to textbook descriptions of ADHD-diagnosed children. When compared to <i>controls</i>, <i>impulsive</i> agents exhibited behavior similar to that of ADHD-diagnosed participants: ",
             "… diminished sensitivity to reinforcement, high frequency of switching between alternatives, low frequency of target responses and acquired reinforcers (Kollins et. al., 1997; Taylor et., al., 2010), short amounts of time spent on task, decreased productivity, rapid task abandonment, difficulties re-engaging in task behavior once the activity was abandoned (Mash & Barkley, 2003), high levels of motor activity, easily distracted by interfering stimuli/activities (Abikoff & Gittelman, 1985; Mash & Barkley, 2003; Waslick & Greenhill, 2004).",
@@ -111,6 +112,7 @@ const adhdText = {
 
     equifinality: {
         title: "Equifinality and Multifinality",
+        subtitle: "Different variables produced the same outcomes and the same variable resulted in different outcomes, depending on context.",
         text: [
             "Similar to the behavioral symptoms observed in ADHD, disorganized behavioral patterns emerged from many combinations of independent variables; the six panels describe outcomes observed under different experimental conditions. Note the quantitative and qualitative (visual) resemblance between panels 2 and 5, and 3 and 4,  respectively. If such similarities would be observed in human participants, it would be difficult not to think of them as subtypes. "
         ],
@@ -150,6 +152,7 @@ const adhdText = {
 
     implications: {
         title: "Implications for ADHD diagnostic",
+        subtitle: "The results described here are in agreement with robust findings and explain the origins of contradictory findings.",
         text: [
             "Examining the behavioral constellations above, is difficult to infer the specific configuration of variables that produced it.This is relevant for clinical research because assignment to control and experimental groups is done based on symptoms similarity, which may obscure etiological variability.",
 
@@ -176,6 +179,7 @@ const adhdText = {
 
     disruptedDynamics: {
         title: "ADHD as an emergent manifestation of disrupted neuronal dynamics",
+        subtitle: "In ETBD, all contributing variables prevented the formation of bouts, one way or another (Popa, 2013, p. AAA-AAA; Popa & McDowell, 2016).",
         text: [
             "ETBD has no goals and no memory. All behavioral constellations emerge, unguided, from the reiteration of Darwinian processes, which transform each generation of integers into a new one.",
             "Since emissions are chosen at random (from the existing population) it follows that the only way in which computational parameters can influence long-term outcomes is indirectly, by altering the composition of each generation, hence the likelihood of emitting one behavior or another.",
@@ -190,6 +194,7 @@ const adhdText = {
 
     bitsToNeurons: {
         title: "From bits to neurons",
+        subtitle: "The biological counterparts of computational variables may produce ADHD symptoms in the same way, by preventing the formation of bouts.",
         text: [
             "The moment-to-moment activity of biological organisms is produced by groups of neurons (Edelman, 1978), hypothesized to constitute a material counterpart for ETBD’s integers (McDowell, 2010). Neurons are interconnected entities, located in a 3-dimensional space, a 3-dimensional graph in which the structure remains fixed, but the configuration of activation states changes. This means that the succession of generations in ETBD corresponds to the succession of configurations of active neurons that underlie behavior. So whatever changes we see in behavior, must have a dynamic counterpart in the alternation of activation states of the neuronal groups that underlie it.",
             "In ETBD, disorganized behavioral patterns emerged in contexts that prevented the formation of bouts, contexts described by various combinations of reinforcement rates, reinforcer magnitudes, mutation rates, and Hamming arrangements. Their real-world counterparts may act in a similar manner, by altering the succession of neuronal configurations in ways that disrupt sustained behavior and sustained attention."
@@ -206,7 +211,8 @@ const adhdText = {
 
 
     dmnActivity: {
-        title: "High activity in the brain's Default Mode Network (DMN)",
+        title: "Mutation and the Default Mode Network (DMN)",
+        subtitle: "High mutation rate in ETBD as high activity in the brain's Default Mode Network",
         text: [
             "Popa and McDowell (2016) hypothesized that mutation rate may be functionally equivalent to the level of activation of the brain’s default mode network (DMN), a collection of interconnected regions that shows strong spontaneous activation at rest (Buckner, Andrews-Hanna, & Schacter, 2008; Raichle et al., 2001). Failure to suppress this network during tasks that require sustained attention or response inhibition was associated with increased levels of behavioral variability (Weissman, Roberts, Visscher, & Woldorff, 2006; Feige, Biscaldi, Saville, Kluckert, & Bender, 2013), presumably by interfering with the activity of task-positive regions, involved in goal-directed activity (Kelly, Uddin, Biswal, Castellanos, & Milham, 2008).",
             "In ETBD, high mutation rates disrupted sustained behavior (i.e., bout-responding) by constantly “dispersing” the population of integers, therefore counteracting the effects of selection events. In nervous systems, high levels of DMN activity may act in similar ways, by constantly disrupting the patterns of neuronal activity that underlie sustained behavior and sustained attention.",
@@ -224,7 +230,8 @@ const adhdText = {
 
 
     nsRewardSystem: {
-        title: "Inadequate activation of NS’ reward system",
+        title: "Selection as reinforcement",
+        subtitle: "Low selection strength and frequency in ETBD corespond to inadequate activation of the brain's reward system",
         text: [
             "The low reinforcement rates and magnitudes arranged in ETBD could correspond to low activation of the brain’ reward system, which, in turn, could be caused by many variables involved in ADHD: low dopamine levels (Faraone & Mick, 2010; Volkow et. al., 2009), reduced number of neurons (Krain & Castellanos, 2006; Malenka, Nestler, & Hyman, 2009), decreased speed of neuronal communication (D'Agati, Casarelli, Pitzianti, & Pasini, 2010), non-reinforcing environments, psychosocial adversity, family conflict; Biederman, Milberger, Faraone, Kiely, Guite, Mick, Ablon, Warburton, Reed,1995; Nigg, 2009), genetic polymorphisms (e.g., LPHN3, Arcos-Burgos & Muenke, 2010), and so on.",
 
@@ -249,6 +256,7 @@ const adhdText = {
 
     lowCod: {
         title: "Low Changeover Delay (COD)",
+        subtitle: "Hamming Distancess and Changeover Delays",
         text: [
             "The Hamming_COD in ETBD was shown to correspond to a real-world changeover delay (Popa & McDowell, 2010): a short time interval, contingent on switching between alternatives (i.e., changing over), during which reinforcement is withheld (Findley (1956). A period of 1-2 seconds was often enough to noticeably increase sensitivity to reinforcement and to reduce the frequency of changeovers; increasing the length of the interval beyond what seemed like a critical threshold had no further effects (Shull & Pliskoff, 1967; Baum, 1974, 1979; Davison & McCarthy, 1988;  Temple et. al., 1995).  Similarly, Taylor et al, (2010) showed that a 2-second COD increased sensitivity to reinforcement in ADHD-diagnosed children, but did not affect controls. These results were in agreement with ETBD (Popa & McDowell, 2010), confirming the equivalence between Hamming_COD and real-world COD.",
             "Popa (2013, Section 2) took this verification one step further: he examined two groups of non-diagnosed college students in a fast matching procedure. One group experienced a 2-second COD; the second group experienced a 0-second COD. The No_COD group exhibited more variable behavior on eight of eight behavioral dimensions. "
@@ -261,6 +269,7 @@ const adhdText = {
 
     molecularDynamics: {
         title: "Molecular Dynamics",
+        subtitle: "Computational ADHD emerged when the probability to emit consecutive target responses was low, regardless of contributing variables.",
         text: [
             "In ETBD, it seemed that the experimental contexts that produced disorganized behavioral patterns were doing so by altering the population's structure in ways that decreased the probability to exhibit consecutive target responses, i.e.  'to stay on task' (Popa, 2013, page 46-47).",
             "To verify this hypothesis, I ran the experimental conditions described here (two examples are shown below) again and recorded the entire population of behaviors, at each generation. This allowed me to compute, for each generation, the probability to emit a response in the same class or the other class, where 'same' was defined as the most recently reinforced target class. For each condition, I sampled 10 generations before and after each selection event, and computed the average moment-to-moment probability to respond in the previously reinforced target class (i.e. 'same' class)."
