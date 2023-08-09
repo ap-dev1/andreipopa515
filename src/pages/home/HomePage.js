@@ -31,15 +31,6 @@ export default function HomePage() {
                 <p>
                     This content was published at andreipopa515.com since 2014 and maybe will be again.
                     <a href="http://web.archive.org/web/*/www.andreipopa515.com*"> http://web.archive.org/web/*/www.andreipopa515.com*</a>
-
-                    {/* Here I will share aspects of my life that do not belong in a portfolio. */}
-                </p>
-
-                <p>
-                    This content was published at andreipopa515.com since 2014 and maybe will be again.
-                    <a href="http://web.archive.org/web/*/www.andreipopa515.com*"> http://web.archive.org/web/*/www.andreipopa515.com*</a> .
-
-
                 </p>
 
                 <p>
