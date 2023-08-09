@@ -16,6 +16,8 @@ import { Routes, Route } from "react-router-dom";
 
 import Automaton from "./pages/automata/Automaton"
 import FaqPage from "./pages/faq/FaqPage";
+import BackstoryPage from "./pages/backstory/BackstoryPage"
+import EmoryExperience from "./pages/emory/EmoryExperience"
 
 function App() {
 
@@ -34,6 +36,10 @@ function App() {
           <Route path="/" element={<HomePage />}></Route>
 
           <Route path="/adhd" element={<AdhdPage />}></Route>
+          <Route path="/backstory" element={<BackstoryPage />}></Route>
+
+          <Route path="/my-emory-experience" element={<EmoryExperience />}></Route>
+
           <Route path="/faq" element={<FaqPage />}></Route>
 
           {/* <Route path="/theory" element={<Theory />}></Route> */}
@@ -42,7 +48,7 @@ function App() {
           <Route path="/etbd" element={<EtbdPage />}></Route>
           <Route path="/blog" element={<BlogPosts />}></Route>
           <Route path="/links" element={<LinksPage />}></Route>
-          <Route path="/imperfect-automata" element={<Automaton />}></Route>
+          {/* <Route path="/imperfect-automata" element={<Automaton />}></Route> */}
 
         </Routes>
 

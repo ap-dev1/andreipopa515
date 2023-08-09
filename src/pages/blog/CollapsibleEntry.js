@@ -20,6 +20,7 @@ export function CollapsibleEntry(data) {
                     {data.data.subtitle ? data.data.subtitle : null}
                 </h2> */}
 
+
                 <h3 className="date">{data.data.date ? data.data.date : null}</h3>
 
                 <div className="entry-tags">

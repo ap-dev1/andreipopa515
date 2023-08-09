@@ -1,10 +1,37 @@
 const blogData = [
 
     {
-        title: "Fasting to live",
+        title: "Reparations as two centuries of tax exemption",
+        // subtitle: "subtitle",
+        date: "08-07-2023",
+        tags: ["reparations", "tax exemptions", "generational wealth", "fairness", "fix machina"],
+
+        text: [
+            "Reparations in the form of one-time payments does not seem feasible. Even if it were feasible, I think it would do irreparable dammage to the black community. Exemption from paying taxes for a few generations has some advantages and I think it's worth considering.",
+
+            "<b>One</b>. It is as cost-effective as it gets. It does not require existing resources. The cost is spread across the nation and distributed over several generations in the form of slightly lower budgets. Cost-wise, this is the most manageable form of returning part of the wealth owed.",
+
+            "<b>Two</b>. It is not a handout, but a bonus contingent on taxable income and proportional with said income. This makes it is compatible with American values.",
+
+
+            "<b>Three</b>. The opportunity to abuse it is minimal, since only taxable income gets rewarded. Furthermore, it would allow and encourage long-term planning, hard work, investing in one’s skills and education, staying out of trouble, etc. - all of which are good predictors of a healthy and prosperous society.",
+
+            "<b>Four</b>. It allows for the accumulation of generational wealth.",
+
+
+            "<b>Five</b>. It would facilitate and encourage long-term planning, hard work, investing in one’s skills and education, staying out of trouble, etc. - all of which are good predictors of a healthy and prosperous society.",
+
+
+            "I'm not sure there is a good or fair way to repair the damage. This approach reconciles to an extent the social cost with the objective of returning wealth, so maybe it's worth considering."
+        ]
+    },
+
+
+    {
+        title: "Getting off the wheel",
         // subtitle: "subtitle",
         date: "5-30-2023",
-        tags: ["water fasting", "protest", "Emory University"],
+        tags: ["fasting", "protest", "Emory University"],
 
         text: [
 
@@ -24,38 +51,36 @@ const blogData = [
 
             "Sincerely,",
             "Andrei",
-
-            // "All my efforts to make this stop and to produce valuable work ended up fueling more and more careers of academics that belong to the right circles but don't have ideas for theses or dissertations, let alone the vision to develop research programs. These academics get mine and I get to watch my world sink under their carreers.",
-
-
-            // "I'll keep to my daily routine, research, walks, coding, reconnecting with a spiritual dimmension of myself, playing with my Rubik cubes, cleaning, repeat.",
-
-            // "It's a lot to unpack, I know, and I wish I had more  Speaking of being ignored, a good place to start is the interaction with Emory's Office for Research Integrity"
         ]
     },
 
-    {
-        title: "Betrayal, loss, and grief",
-        subtitle: "subtitle",
 
-        date: "4-21-2023",
-        tags: ["tags"],
-
-        text: [
-            "Being stabbed in the back by a friend is a devastating experience. The tapistry of emotions is reach and vivivd, with the obvious ones at the center: rage, shame, worthlessness, helplesseness, sadness, misstrust, confusion.",
-            "The depth of the wound depends on how close the relation was, on how safe one felt, on what was taken, and on what is left. ",
-            "Say one was catfished and took a serious financial hit. A supporting family or group of friends can make a big difference in the aftermath - as opposed to facing it alone.",
-            "*",
-            "I became aware of my parents' betrayal late, maybe too late, but even then, I ignored it. I cut my parents from my life, but because I was still able to excuse their actions, I kept lying to myself, until the truth became impossible to ignore.",
-            "Behind every unfortunate accident, failed relationship, and predatory coworker it was them, mom and dad, weaving a web of lies, pulling strings, highjacking my future, and unrevaling my past.",
-            "*",
-            "I lost my family in a blink of an eye.",
-            "Becoming aware was equivalent with learning that they died in a car crash: the family I thought I had was gone. The rage, fear, and disgust overwhelmed me. Now that the smoke is gone and all mirrors are broken, I began to realize that I didn't grief the loss.",
-            "I've lost my family, and yet there they are, walking and talking, poisoning everything they touch. Does anyone have a pamflet on how to cope with this? If I come up with something, I'll let you know. If you're like me, reach out.",
+    // "All my efforts to make this stop and to produce valuable work ended up fueling more and more careers of academics that belong to the right circles but don't have ideas for theses or dissertations, let alone the vision to develop research programs. These academics get mine and I get to watch my world sink under their carreers.",
 
 
-        ]
-    },
+    // "I'll keep to my daily routine, research, walks, coding, reconnecting with a spiritual dimmension of myself, playing with my Rubik cubes, cleaning, repeat.",
+
+    // "It's a lot to unpack, I know, and I wish I had more  Speaking of being ignored, a good place to start is the interaction with Emory's Office for Research Integrity"
+
+
+    // {
+    //     title: "Betrayal, loss, and grief",
+    //     subtitle: "subtitle",
+    //     date: "4-21-2023",
+    //     tags: ["tag1", "tag2", "tag3"],
+    //     text: [
+    //         "Being stabbed in the back by a friend is a devastating experience. The tapistry of emotions is reach and vivivd: rage, shame, worthlessness, helplesseness, sadness, misstrust, confusion.",
+    //         "The depth of the wound depends on how close the relation was, on how safe one felt, on what was taken, and on what is left. ",
+    //         "Say one was catfished and took a serious financial hit. A supporting family or group of friends can make a big difference in the aftermath - as opposed to facing it alone.",
+    //         "*",
+    //         "I became aware of my parents' betrayal late, maybe too late, but even then, I ignored it. I cut my parents from my life, but because I was still able to excuse their actions, I kept lying to myself, until the truth became impossible to ignore.",
+    //         "Behind every unfortunate accident, failed relationship, and predatory coworker it was them, mom and dad, weaving a web of lies, pulling strings, highjacking my future, and unrevaling my past.",
+    //         "*",
+    //         "I lost my family in a blink of an eye.",
+    //         "Becoming aware was equivalent with learning that they died in a car crash: the family I thought I had was gone. The rage, fear, and disgust overwhelmed me. Now that the smoke is gone and all mirrors are broken, I began to realize that I didn't grief the loss.",
+    //         "I've lost my family, and yet there they are, walking and talking, poisoning everything they touch. Does anyone have a pamflet on how to cope with this? If I come up with something, I'll let you know. If you're like me, reach out.",
+    //     ]
+    // },
 
 
 
@@ -64,67 +89,33 @@ const blogData = [
         subtitle: "subtitle",
 
         date: "",
-        tags: ["tags"],
+        tags: ["Munchausen Syndrome by Proxy", "teeth grinding", "malignant parenting", "child abuse"],
 
         text: [
-            "Teeth grinding during sleep, or bruxism, can be neutralized with a mouth gard - a silicone thingy that prevents contact between lower and upper teeth. My parents, however, hid this from me; not the solution, the condition itself. By the age of ten I was intimate with oral surgery. By the time I finished high-school, I was missing more than half of my adult teeth. The extent of the damage was masked by veneers, bridges, and changing dentists a few times. I remained unaware of my condition until college. Take some time to absorb this. "
+            "Teeth grinding during sleep, or bruxism, can be neutralized with a mouth gard - a silicone thingy that prevents contact between lower and upper teeth. My parents, however, hid this from me; not the solution, the condition itself. By the age of ten I was intimate with oral surgery. By the time I finished high-school, I was missing more than half of my adult teeth. The extent of the damage was masked by veneers, bridges, and changing dentists a few times. I remained unaware of my condition until college. Take some time to absorb this."
         ],
 
     },
 
-    {
-        title: "",
-        subtitle: "subtitle",
 
-        date: "",
-        tags: ["tags"],
+    // {
+    //     title: "From Romania to Emory",
+    //     subtitle: "subtitle",
 
-        text: [
-            "In 2005 I was accepted in the graduate program in Cognition and Behavior at Arizona State University. For my parents this meant loosing control over their favorite toy, so they did something about it.",
+    //     date: "",
+    //     tags: ["tag1", "tag2", "tag3"],
 
-            "Somehow - I'll come back to this - they got the Psychology Department of Emory University to offer me a fake spot in their Cognition and Development program and to sabotage me until I quit.",
+    //     text: [
+    //         "The request to derail my life was made and honored via lawyers, an industry used to hurt me directly and to reward other bad actors contracted to hurt me along the way.",
 
-            "Now, a fake spot, or ghost spot, is one that does not exist in University records. One goes through all the motions without being actually enrolled. It's a thing at Emory.",
+    //         "The point of contact was the Panait family. Soon after the fall of communism, Viorel Panait took control of Comvex - the largest operator in the Constanta harbor (my home town). My mother was his head of human resources for 25 years.",
 
-            "The task fell in Phil Wolff, a junior faculty on track to tenure at the time. He made me an offer and I accepted. I arrived in Atlanta in August 2005 and the masquerade began. Six months later I was too demoralized to continue, so I took a leave of absence from which no one thought I will return.",
+    //         "Viorel's ex wife's mother (so his ex mother inlaw) was a lawyer for 60 years, with high up connections in the Romanian communist party and in the USA. I learned this from Viorel's son, Cosmin Panait. He was an undergrad at Emory while I was in grad school. There he became my fake friend, a spy for my parents, and a source of misinformation about me.",
 
-            "This was the first time I was trafficked by Emory University, but not the last.",
-        ]
-    },
+    //         "The field of law was used to reward women who were contracted to pose as sex partners/girlfriends, to spy on me, to cause personal crises, to spread misinformation, to steal from my house, and god knows what else. They were rewarded with law degrees and careers; this is an incomplete list. Kathrine Jayne, now lawyer; Alison Yourick, now lawyer; Sarah Skinner, now prosecutor; Natalie Liem, now lawyer in the social security administration.",
+    //     ]
+    // },
 
-    {
-        title: "",
-        subtitle: "subtitle",
-
-        date: "",
-        tags: ["tags"],
-
-        text: [
-            "The request to derail my life was made and honored via lawyers, an industry used to hurt me directly and to reward other bad actors contracted to hurt me along the way.",
-
-            "The point of contact was the Panait family. Soon after the fall of communism, Viorel Panait took control of Comvex - the largest operator in the Constanta harbor (my home town). My mother was his head of human resources for 25 years.",
-
-            "Viorel's ex wife's mother (so his ex mother inlaw) was a lawyer for 60 years, with high up connections in the Romanian communist party and in the USA. I learned this from Viorel's son, Cosmin Panait. He was an undergrad at Emory while I was in grad school. There he became my fake friend, a spy for my parents, and a source of misinformation about me.",
-
-            "The field of law was used to reward women who were contracted to pose as sex partners/girlfriends, to spy on me, to cause personal crises, to spread misinformation, to steal from my house, and god knows what else. They were rewarded with law degrees and careers; this is an incomplete list. Kathrine Jayne, now lawyer; Alison Yourick, now lawyer; Sarah Skinner, now prosecutor; Natalie Liem, now lawyer in the social security administration.",
-        ]
-    },
-
-    {
-        title: "",
-        subtitle: "subtitle",
-        date: "",
-        tags: ["tags"],
-        text: [
-            "In 2007 I returned from leave and I joined McDowell's lab. Little did I know that him and his ABAI buddies have decades of experience with stealing ideas, derailing careers, and ruining lives.",
-
-            "Years went by and I was doing well. Seeing that I don't quit they tried to exhaust me, but I loved the research too much to be deterred (or to notice what they were doing). The more they tried, the better I got and, little by little, I became the scholar McDowell pretends to be.",
-
-            "Something had to be done, apparently, and they found the right man for the job: Ralph Woolfolk, a young and ambitious detective with Atlanta PD. He fabricated an allegation of rape against me, pretended to investigate it, and interviewed my recommenders in the process. My attorneys (Aurora and LaScala) played along, making the whole thing appear legit. With no intention to arrest me, they ended my career before it began.",
-
-            "The next years were just mental anguish and desperate attempts to prove my worth as a scholar. These attempts ended up boosting the careers of other posers (e.g., Keneth Carter)."
-        ]
-    }
 
 
 ]

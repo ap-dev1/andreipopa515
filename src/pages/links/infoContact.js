@@ -174,8 +174,10 @@ var infoContact = [
     },
 
 
+    //  categories: social media, contact, emory, resources, miscellaneous, 
+
     {
-        name: "Hackett 2019, fascinating",
+        name: "Hackett 2019, replicant",
         url: "https://etd.library.emory.edu/concern/etds/rr171z32k?locale=en",
         key: 2,
         image_src: "",

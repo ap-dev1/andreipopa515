@@ -1,27 +1,26 @@
-import "./faq-page.css"
 import React from "react"
 import { faqData } from "./faqData";
+import TemplateFaq from "./TemplateFaq";
 
 function FaqPage() {
     return (
-        <section className="faq">
-            <h1>Frequently Asked Questions</h1>
+        <section className="faq-section">
+
+            {/* <div>
+                <h1>Frequently Asked Questions</h1>
+            </div> */}
+
+
             {faqData.map((entry) => {
                 return (
-                    <article>
-                        <h2>{entry.question}</h2>
-                        {entry.answer.map((item) => {
-                            return (
-                                <p>{item}</p>
-                            )
-                        })}
-                    </article>
+                    <TemplateFaq
+                        question={entry.question}
+                        answer={entry.answer}
+                    />
                 )
             })}
         </section>
     )
 }
-
-
 
 export default FaqPage;
