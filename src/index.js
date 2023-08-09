@@ -6,6 +6,10 @@ import "./styles.css";
 // import { BrowserRouter } from "react-router-dom";
 import { HashRouter } from "react-router-dom";
 
+import ReactGA from "react-ga4";
+ReactGA.initialize("G-MB2HPVP47E");
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
