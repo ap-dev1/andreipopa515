@@ -23,20 +23,27 @@ export default function HomePage() {
                 <p>
                     My portfolio is at
 
-                    <a href="https://www.andreipopa.dev/"> https://www.andreipopa.dev</a> .
+                    <a
+                        href="https://www.andreipopa.dev/"
+                        target="_blank"
+                    > https://www.andreipopa.dev</a>
 
                     {/* There you'll find interactive demos of my research and you'll get a better idea about my background and goals. */}
                 </p>
 
                 <p>
                     This content was published at andreipopa515.com since 2014 and maybe will be again.
-                    <a href="http://web.archive.org/web/*/www.andreipopa515.com*"> http://web.archive.org/web/*/www.andreipopa515.com*</a>
+                    <a href="http://web.archive.org/web/*/www.andreipopa515.com*"
+                        target="_blank"
+                    > http://web.archive.org/web/*/www.andreipopa515.com</a>
                 </p>
 
                 <p>
                     Here I will share aspects of my life that do not belong in a portfolio.
-                    This site is still under construction. Thank you for your patience and for your interest.
+                    This site is under construction. Thank you for your patience and interest.
                 </p>
+
+
 
 
                 {/* <p>

@@ -10,13 +10,13 @@ export default function EmoryExperience() {
         <section className="emory">
             <header>
                 <h1>My Emory experience</h1>
-                <p>
+                {/* <p>
                     Everything I know from others may or may not be true. I'm simply repeating what I was told.
                 </p>
                 <p>Resources: <a>Google drive</a>
                 </p>
                 <p>Emory complaints: <a>Service</a>
-                </p>
+                </p> */}
             </header>
 
             <EmoryTemplate
@@ -34,7 +34,7 @@ export default function EmoryExperience() {
                 thumbnail={emory2007.thumbnail}
             />
 
-            <article>
+            {/* <article>
                 <h1>2014-2018, the con continues</h1>
             </article>
 
@@ -45,7 +45,7 @@ export default function EmoryExperience() {
             <article>
                 <h1>2020-2023, COVID and beyond</h1>
                 <p>Little by little I realize that I'm confined to an artificial world, in which my credentials are not being corroborated by my Alma Mater, essentially leaving me with a 17-year gap in my CV.</p>
-            </article>
+            </article> */}
         </section>
     )
 } 
