@@ -1,6 +1,7 @@
 import "./service-page.css";
 import qrcode from "./mediafire.png";
 
+
 export default function ServicePage() {
     return <div className="service-page">
 

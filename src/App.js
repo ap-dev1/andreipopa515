@@ -20,6 +20,8 @@ import BackstoryPage from "./pages/backstory/BackstoryPage"
 import EmoryExperience from "./pages/emory/EmoryExperience"
 import LettersPage from "./pages/letters/LettersPage";
 
+
+
 function App() {
 
   return (
@@ -47,7 +49,7 @@ function App() {
           <Route path="/sparc" element={<Sparc2016 />}></Route>
           <Route path="/service" element={<ServicePage />}></Route>
           <Route path="/etbd" element={<EtbdPage />}></Route>
-          <Route path="/blog" element={<BlogPosts />}></Route>
+          {/* <Route path="/blog" element={<BlogPosts />}></Route> */}
           <Route path="/letters" element={<LettersPage />}></Route>
 
           <Route path="/links" element={<LinksPage />}></Route>

@@ -6,7 +6,6 @@ import parse from "html-react-parser"
 export default function EmoryTemplate(props) {
     const [open, setopen] = useState(false)
 
-    console.log(props.title)
     return (
         <article className="post">
 

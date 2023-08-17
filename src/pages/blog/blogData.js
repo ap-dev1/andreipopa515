@@ -7,52 +7,43 @@ const blogData = [
         tags: ["reparations", "tax exemptions", "generational wealth", "fairness", "fix machina"],
 
         text: [
-            "Reparations in the form of one-time payments does not seem feasible. Even if it were feasible, I think it would do irreparable dammage to the black community. Exemption from paying taxes for a few generations has some advantages and I think it's worth considering.",
-
-            "<b>One</b>. It is as cost-effective as it gets. It does not require existing resources. The cost is spread across the nation and distributed over several generations in the form of slightly lower budgets. Cost-wise, this is the most manageable form of returning part of the wealth owed.",
-
-            "<b>Two</b>. It is not a handout, but a bonus contingent on taxable income and proportional with said income. This makes it is compatible with American values.",
-
-
-            "<b>Three</b>. The opportunity to abuse it is minimal, since only taxable income gets rewarded. Furthermore, it would allow and encourage long-term planning, hard work, investing in one’s skills and education, staying out of trouble, etc. - all of which are good predictors of a healthy and prosperous society.",
-
-            "<b>Four</b>. It allows for the accumulation of generational wealth.",
-
-
-            "<b>Five</b>. It would facilitate and encourage long-term planning, hard work, investing in one’s skills and education, staying out of trouble, etc. - all of which are good predictors of a healthy and prosperous society.",
-
-
-            "I'm not sure there is a good or fair way to repair the damage. This approach reconciles to an extent the social cost with the objective of returning wealth, so maybe it's worth considering."
+            "Reparations in the form of one-time payments does not seem feasible. Even if it were feasible, I think it would do irreparable damage to the black community. Exemption from paying taxes for a few generations has some advantages  and I think it's worth considering.",
+            "<b>One.</b> It is as cost-effective as it gets. It does not require existing resources. The cost is spread across the nation and distributed over several generations in the form of slightly lower budgets. Cost-wise, this is the most manageable form of returning part of the wealth owed.",
+            "<b>Two.</b> It is not a handout, but a bonus proportional with taxable income - perfectly compatible with American values.",
+            "<b>Three.</b> Is difficult to abuse the benefits, since they are contingent on taxable income. Unemployed individuals, for example, would not benefit until they become employed.",
+            "<b>Four.</b> It allows for the accumulation of generational wealth.",
+            "Five</b>. It would facilitate and encourage long-term planning, hard work, investing in one's skills and education, staying out of trouble, etc. - all of which are good predictors of a healthy and prosperous society.",
+            // "What do you think about these arguments? Is a one-time payment preferable? Something else? Let me know in the comments."
         ]
     },
 
 
-    {
-        title: "Getting off the wheel",
-        // subtitle: "subtitle",
-        date: "5-30-2023",
-        tags: ["fasting", "protest", "Emory University"],
+    // {
+    //     title: "Getting off the wheel",
+    //     // subtitle: "subtitle",
+    //     date: "5-30-2023",
+    //     tags: ["fasting", "protest", "Emory University"],
 
-        text: [
+    //     text: [
 
-            "Hello, I'm Dr. Andrei Popa, computational scientist and green card holder for research in national interest (E26).",
+    //         "Hello, I'm Dr. Andrei Popa, computational scientist and green card holder for research in national interest (E26).",
 
-            "I'm writing this on May 30, 2023. It is my 10th day of fasting and the first day without water. I'm doing this to protest the fact that Emory University admitted me in a PhD program with no intention of giving me credit for my work or acknowldging my credentials. They worked me for years, robbed me of my intellectual property, and then ruined my life.",
+    //         "I'm writing this on May 30, 2023. It is my 10th day of fasting and the first day without water. I'm doing this to protest the fact that Emory University admitted me in a PhD program with no intention of giving me credit for my work or acknowldging my credentials. They worked me for years, robbed me of my intellectual property, and then ruined my life.",
 
-            "It's been more than a decade of gaslighting, and shenanigans that took shocking forms. Meanwhile, my research and ideas are being slowly syphoned in publications, but attributed to others (in more or less subtle ways). ",
+    //         "It's been more than a decade of gaslighting, and shenanigans that took shocking forms. Meanwhile, my research and ideas are being slowly syphoned in publications, but attributed to others (in more or less subtle ways). ",
 
-            "I am wounded and indignated. The people that are doing this to me are people I've come to trust over the years, people I was fond of. Mentors, lab mates, committee members, recommenders (jobs & green card), faculty and staff who hugged me cordially on graduation day, congratulated me, and wished me all the best. ",
-
-
-            "I hope that they - Emory, the powers that be - will eventually hear me and make things right, because I will not abandon my identity as a researcher. I spent 17 years cultivating it, I'm good at it, and there's nothing else I care about than taking it further, but as me, not as a ghost researcher.",
-
-            "My life is in God's hands now because I will not eat or drink until I'm heard. Either way, four days or fourty years, I'll be at my station, continuing my work.",
+    //         "I am wounded and indignated. The people that are doing this to me are people I've come to trust over the years, people I was fond of. Mentors, lab mates, committee members, recommenders (jobs & green card), faculty and staff who hugged me cordially on graduation day, congratulated me, and wished me all the best. ",
 
 
-            "Sincerely,",
-            "Andrei",
-        ]
-    },
+    //         "I hope that they - Emory, the powers that be - will eventually hear me and make things right, because I will not abandon my identity as a researcher. I spent 17 years cultivating it, I'm good at it, and there's nothing else I care about than taking it further, but as me, not as a ghost researcher.",
+
+    //         "My life is in God's hands now because I will not eat or drink until I'm heard. Either way, four days or fourty years, I'll be at my station, continuing my work.",
+
+
+    //         "Sincerely,",
+    //         "Andrei",
+    //     ]
+    // },
 
 
     // "All my efforts to make this stop and to produce valuable work ended up fueling more and more careers of academics that belong to the right circles but don't have ideas for theses or dissertations, let alone the vision to develop research programs. These academics get mine and I get to watch my world sink under their carreers.",
@@ -84,18 +75,18 @@ const blogData = [
 
 
 
-    {
-        title: "Bruxism",
-        subtitle: "subtitle",
+    // {
+    //     title: "Bruxism",
+    //     subtitle: "subtitle",
 
-        date: "",
-        tags: ["Munchausen Syndrome by Proxy", "teeth grinding", "malignant parenting", "child abuse"],
+    //     date: "",
+    //     tags: ["Munchausen Syndrome by Proxy", "teeth grinding", "malignant parenting", "child abuse"],
 
-        text: [
-            "Teeth grinding during sleep, or bruxism, can be neutralized with a mouth gard - a silicone thingy that prevents contact between lower and upper teeth. My parents, however, hid this from me; not the solution, the condition itself. By the age of ten I was intimate with oral surgery. By the time I finished high-school, I was missing more than half of my adult teeth. The extent of the damage was masked by veneers, bridges, and changing dentists a few times. I remained unaware of my condition until college. Take some time to absorb this."
-        ],
+    //     text: [
+    //         "Teeth grinding during sleep, or bruxism, can be neutralized with a mouth gard - a silicone thingy that prevents contact between lower and upper teeth. My parents, however, hid this from me; not the solution, the condition itself. By the age of ten I was intimate with oral surgery. By the time I finished high-school, I was missing more than half of my adult teeth. The extent of the damage was masked by veneers, bridges, and changing dentists a few times. I remained unaware of my condition until college. Take some time to absorb this."
+    //     ],
 
-    },
+    // },
 
 
     // {

@@ -3,8 +3,12 @@
 
     flex-direction: column;
     justify-content: center;
+    /* color: red; */
+    /* color: blue; */
+    /* transition: all 2s; */
 
 }
+
 
 .home-page img {
     margin-right: 2rem;

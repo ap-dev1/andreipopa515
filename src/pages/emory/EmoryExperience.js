@@ -3,13 +3,15 @@ import React from "react"
 import parse from "html-react-parser"
 import { emory2005, emory2007 } from "./emoryData";
 import EmoryTemplate from "./EmoryTemplate"
+import EmoryIntro from "./EmoryIntro";
 
 
 export default function EmoryExperience() {
     return (
-        <section className="emory">
+        <article className="emory">
             <header>
-                <h1>My Emory experience</h1>
+                <h1 style={{ margin: "auto", maxWidth: "500px", marginBottom: "10px", textAlign: "center", fontSize: "24px" }}>My Emory experience:</h1>
+                <h1 style={{ margin: "auto", maxWidth: "500px", marginBottom: "10px", textAlign: "center", fontSize: "18px" }}>a future-less life</h1>
                 {/* <p>
                     Everything I know from others may or may not be true. I'm simply repeating what I was told.
                 </p>
@@ -18,6 +20,8 @@ export default function EmoryExperience() {
                 <p>Emory complaints: <a>Service</a>
                 </p> */}
             </header>
+
+            <EmoryIntro />
 
             <EmoryTemplate
                 title={emory2005.title}
@@ -34,6 +38,9 @@ export default function EmoryExperience() {
                 thumbnail={emory2007.thumbnail}
             />
 
+
+
+
             {/* <article>
                 <h1>2014-2018, the con continues</h1>
             </article>
@@ -46,6 +53,10 @@ export default function EmoryExperience() {
                 <h1>2020-2023, COVID and beyond</h1>
                 <p>Little by little I realize that I'm confined to an artificial world, in which my credentials are not being corroborated by my Alma Mater, essentially leaving me with a 17-year gap in my CV.</p>
             </article> */}
-        </section>
+
+            <footer
+                style={{ textAlign: "center", fontWeight: "600", fontSize: "12px" }}
+            >To be continued</footer>
+        </article>
     )
 } 

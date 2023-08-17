@@ -20,7 +20,7 @@ var infoContact = [
         key: 111,
         image_src: "link_google_drive_img.jpg",
         info: "Click to copy to clipboard. Use it only for good.",
-        label: "delet me"
+        label: "delete me"
     },
 
 
@@ -70,7 +70,7 @@ var infoContact = [
         key: 1,
         image_src: "link_google_drive_img.jpg",
         info: "Resume, transcripts, etc. About the transcript, its electronic signature makes sharing it difficult. It must be saved and opened with Acrobat Reader.",
-        label: "drive"
+        label: "research"
     },
 
 
@@ -156,7 +156,7 @@ var infoContact = [
 
 
     {
-        name: "Popa 2009, Masters thesis",
+        name: "Popa 2009, masters thesis",
         url: "https://etd.library.emory.edu/concern/etds/8k71nj12p?locale=en",
         key: 2,
         image_src: "",
@@ -165,7 +165,7 @@ var infoContact = [
     },
 
     {
-        name: "Popa 2013, dissertation",
+        name: "Popa 2013,  dissertation",
         url: "https://etd.library.emory.edu/concern/etds/9880vr10s?locale=en",
         key: 2,
         image_src: "",
@@ -206,12 +206,12 @@ var infoContact = [
 
 
     {
-        name: "By me a coffee",
+        name: "Endorse my work",
         url: "https://ko-fi.com/fixmachina",
         key: 2,
         image_src: "",
         info: "https://ko-fi.com/fixmachina",
-        label: "coffee"
+        label: "research"
     },
 
 

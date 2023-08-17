@@ -1,0 +1,12 @@
+.emory-intro header div p {
+    font: .8em sans-serif;
+    max-width: 500px;
+    margin: auto;
+}
+
+.emory-intro header div h1 {
+    /* font: .8em sans-serif; */
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 10px;
+}

@@ -13,7 +13,7 @@ export default function HomePage() {
     })
 
 
-    return <div className="home-page">
+    return <article className="home-page">
 
         <div>
             {/* <img src={profile515}></img> */}
@@ -21,7 +21,7 @@ export default function HomePage() {
             <div>
                 <p>Welcome stranger, I'm Dr. Andrei Popa.</p>
                 <p>
-                    My portfolio is at
+                    For my portfolio, visit
 
                     <a
                         href="https://www.andreipopa.dev/"
@@ -32,18 +32,23 @@ export default function HomePage() {
                 </p>
 
                 <p>
-                    This content was published at andreipopa515.com since 2014 and maybe will be again.
+                    This site was published at
+                    andreipopa515.com since 2014.
+                    {/* and maybe will be again. */}
                     <a href="http://web.archive.org/web/*/www.andreipopa515.com*"
                         target="_blank"
-                    > http://web.archive.org/web/*/www.andreipopa515.com</a>
+                    > http://web.archive.org/web/*/www.andreipopa515.com</a>.
                 </p>
 
                 <p>
-                    Here I will share aspects of my life that do not belong in a portfolio.
-                    This site is under construction. Thank you for your patience and interest.
+                    It's a work in progress, so gets updated often. Thank you for your patience and interest.
                 </p>
 
 
+                <p>
+                    Sincerely,<br /><br /><br />
+                    Andrei
+                </p>
 
 
                 {/* <p>
@@ -67,5 +72,5 @@ export default function HomePage() {
 
 
 
-    </div>
+    </article>
 }

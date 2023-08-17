@@ -4,20 +4,38 @@ import parse from "html-react-parser"
 import EmoryTemplate from "../emory/EmoryTemplate"
 import Introduction from "./Introduction"
 import NotWanted432 from "./NotWanted432"
+import IntermezzoAfterBirth from "./IntermezzoAfterBirth"
+import OffTheWheel from "./OffTheWheel"
+import Bruxism from "./Bruxism"
 
 export default function BackstoryPage() {
     return (
 
-        <section className="backstory" aria-label="backstory">
+        <article className="backstory" aria-label="backstory">
             <header>
-                <p>Dear reader, this is a story about malignant parenting. I will touch on domestic violence, child abuse, and animal cruelty. </p>
+                <p
+                    style={{ fontSize: "14px" }}
+                >Dear reader, please be advised: this is a story about malignant parenting. I will touch on domestic violence, child abuse, animal cruelty, and human trafficking. </p>
+
+                <p
+                    style={{ fontSize: "14px" }}
+                >See also youtube facebook</p>
+
+                <p>See also youtube facebook</p>
+
             </header>
 
             <Introduction />
 
             <NotWanted432 />
 
+            <IntermezzoAfterBirth />
 
+            <Bruxism />
+
+
+
+            <OffTheWheel />
             {/* 
             <article>
                 <h1>My hero, Ecaterina "Cati" Talmaciu (? - 2005)</h1>
@@ -30,6 +48,11 @@ export default function BackstoryPage() {
 
 
             {/* after the appartment thing, they didn't stop to try to turn me into something ugly, a hater, */}
-        </section>
+
+            <footer
+                style={{ textAlign: "center", fontWeight: "600", fontSize: "12px" }}
+            >To be continued</footer>
+
+        </article>
     )
 }
