@@ -44,11 +44,11 @@ export default function NavBar() {
             <CustomLink to="/sparc">SpARC</CustomLink>
             {/* <CustomLink to="/blog">Blog</CustomLink> */}
 
-            {/* <CustomLink to="/letters">Letters
+            <CustomLink to="/letters">Letters
                 <sup className="new">
-                    8.9.2023
+                    Aug 17
                 </sup >
-            </CustomLink> */}
+            </CustomLink>
 
             <CustomLink to="/links">Contact</CustomLink>
             {/* <CustomLink to="/imperfect-automata">Automata</CustomLink> */}

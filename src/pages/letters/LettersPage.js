@@ -9,17 +9,18 @@ export default function LettersPage() {
     return (
         <div className="letters">
 
-            <h1>Coming soon</h1>
+            {/* <h1>Coming soon</h1> */}
 
-            {/* {lettersData.map((letter) => {
+            {lettersData.map((letter) => {
                 return (
                     <LetterTemplate
+                        meta={letter.meta}
                         title={letter.title}
                         thumbnail={letter.thumbnail}
                         text={letter.text}
                     />
                 )
-            })} */}
+            })}
         </div>
     )
 }

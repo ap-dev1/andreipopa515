@@ -4,18 +4,24 @@ import parse from "html-react-parser"
 
 
 export default function LetterTemplate(props) {
-    const [open, setopen] = useState(false)
+    const [open, setopen] = useState(true)
 
     return (
         <article className="letter">
 
             <header onClick={() => setopen(!open)}>
 
+
+
                 <div className="thumbnail">
                     <img ref={props.thumbnail ? props.thumbnail : null}></img>
                 </div>
 
                 <div className="info">
+                    <p className="meta">
+
+                        {props.meta}
+                    </p>
                     <h1 className="title"  >
                         {props.title ? parse(props.title) : null}
                     </h1>
