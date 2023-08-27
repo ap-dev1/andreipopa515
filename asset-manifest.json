@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/andreipopa515/static/css/main.5ae82417.css",
-    "main.js": "/andreipopa515/static/js/main.a79b095a.js",
+    "main.js": "/andreipopa515/static/js/main.b5864ce4.js",
+    "static/media/verification-certificate-210677797.pdf": "/andreipopa515/static/media/verification-certificate-210677797.72d383f654c6f597a567.pdf",
     "static/media/adhd13-evolution-over-time-12k.gif": "/andreipopa515/static/media/adhd13-evolution-over-time-12k.9d95a641289d6ed26eeb.gif",
+    "static/media/teacher-scholar-award-clearer.jpg": "/andreipopa515/static/media/teacher-scholar-award-clearer.d308931599598f4cf03e.jpg",
     "static/media/zebra-fish-neurons.gif": "/andreipopa515/static/media/zebra-fish-neurons.d387f58561e59cb5c058.gif",
     "static/media/change-in-state.gif": "/andreipopa515/static/media/change-in-state.62e266375fc78a5142f8.gif",
     "static/media/adhd_02_impulsive_agent_good_environ.png": "/andreipopa515/static/media/adhd_02_impulsive_agent_good_environ.7eafef8856fed90e0b9e.png",
@@ -10,6 +12,7 @@
     "static/media/adhd15-impulsive-agent-good-environ.webp": "/andreipopa515/static/media/adhd15-impulsive-agent-good-environ.df3db155f92cc42d1174.webp",
     "static/media/adhd14-impulsive-agent-bad-environ.webp": "/andreipopa515/static/media/adhd14-impulsive-agent-bad-environ.3e5929a65c583b413f18.webp",
     "static/media/adhd_03_impulsive_agent_great_environ_pn.webp": "/andreipopa515/static/media/adhd_03_impulsive_agent_great_environ_pn.fa3cab9cce33b7215b15.webp",
+    "static/media/letter-jack-mcdowell.pdf": "/andreipopa515/static/media/letter-jack-mcdowell.4a737647978e1520af04.pdf",
     "static/media/adhd_05_control_agent_bad_environ.webp": "/andreipopa515/static/media/adhd_05_control_agent_bad_environ.d6852248d2bed9e4898c.webp",
     "static/media/adhd_04_impulsive_agent_bad_environ.webp": "/andreipopa515/static/media/adhd_04_impulsive_agent_bad_environ.a2267fbb56b623647e7b.webp",
     "static/media/adhd15-prob-same-class.webp": "/andreipopa515/static/media/adhd15-prob-same-class.09c14b0c57ed965360f3.webp",
@@ -31,10 +34,10 @@
     "static/media/profile515.webp": "/andreipopa515/static/media/profile515.150b05daa6101cf873e0.webp",
     "index.html": "/andreipopa515/index.html",
     "main.5ae82417.css.map": "/andreipopa515/static/css/main.5ae82417.css.map",
-    "main.a79b095a.js.map": "/andreipopa515/static/js/main.a79b095a.js.map"
+    "main.b5864ce4.js.map": "/andreipopa515/static/js/main.b5864ce4.js.map"
   },
   "entrypoints": [
     "static/css/main.5ae82417.css",
-    "static/js/main.a79b095a.js"
+    "static/js/main.b5864ce4.js"
   ]
 }
