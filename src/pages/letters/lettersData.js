@@ -2,6 +2,39 @@ export const lettersData = [
 
 
 
+
+    // {
+    //     meta: "To my Alma Mater, Emory University",
+    //     title: "Dear Alma Mater, ",
+    //     thumbnail: null,
+    //     text: [
+
+    //         "I am Dr. Andrei Popa, a son you exploited and abandoned.",
+
+    //         "Members of our community accepted me in the phd program with no intention to credit me for my work and time at Emory. They only kept me around to exploit me and to plagiarize my work, while sabotaging my job search and professional persona behind my back (see Popa v McDowell, 2020).",
+
+    //         "I graduated ten years ago, in 2013. All this time – it turned out - I applied for jobs with credentials that \"cannot be confirmed\", an award that does not actually exist, and confidential letters of recommendation that misrepresent me to the point of carricature (screenshots below the text).",
+
+    //         "The harder I worked to prove my worth, the more I sank, to my abusers’ gain; my work fuels many research careers, just not mine.",
+
+    //         "You allowed this predatory behavior to proliferate to the point where my work conditions have become untanable and my existence – a cruel joke. Now I’a stuck, slowly succombing to dehidration because I’m out of both resources and ideas.",
+
+    //         "This is unjust and wastefull. I earned my stripes through hard work and sacrifice. My research program is unique, ambitious, and valuable - just ask my plagiarizers, they know almost all about it. The best of me, as a scholar and a person, is ahead, not behind. Instead of letting me fade away, embrace me and let me fly. You’ll be glad you did.",
+
+
+    //         "Sincerely,",
+
+    //         "Dr. Andrei Popa, PhD ",
+    //         "Emory University 2013",
+
+
+    //         "phd: ",
+    //         " hackett: ",
+    //         " portfolio: ",
+    //         " backstory: ",
+    //     ]
+    // },
+
     {
         meta: "to an uncle I was not allowed to know",
         title: "Draga Claudiu,",
@@ -29,14 +62,6 @@ export const lettersData = [
         ]
     },
 
-
-    // {
-    //     title: "Nat",
-    //     thumbnail: null,
-    //     text: [
-
-    //     ]
-    // },
 
     // {
     //     title: "To my abusers",
