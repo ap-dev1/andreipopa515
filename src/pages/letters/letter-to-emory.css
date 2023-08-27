@@ -1,4 +1,55 @@
-.footer-link {
+.letter-to-emory {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: rgba(100, 100, 100, .7) */
+}
+
+.letter-to-emory header {
+    color: rgb(15, 15, 15);
+    border-bottom: 2px solid #333;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+
+}
+
+
+
+.letter-to-emory header:hover {
+    background-color: rgba(218, 243, 252, 0.7);
+    transition: .5s ease-in-out;
+
+}
+
+
+.content .paragraph {
+    margin-left: 20px;
+}
+
+
+.content .letter-signature {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+}
+
+
+.content .letter-signature p {
+    margin-top: 0px;
+    padding: 0px;
+    line-height: 1;
+}
+
+
+
+
+.content .letter-links {
+    border: 2px solid #555;
+    padding: .25rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.content .letter-links p {
     width: 650px;
     max-width: 100%;
     margin: auto;
@@ -9,7 +60,43 @@
     color: darkslategrey;
 }
 
-.footer-link a {
+
+.content .letter-links p a {
     text-decoration: none;
     opacity: .8;
+}
+
+
+
+.content .letter-images {
+    margin-top: 1rem;
+}
+
+
+.content .letter-images object {
+    margin: auto;
+    border: 4px solid #999;
+}
+
+
+.content .letter-images .object-caption {
+    margin: 2rem auto .5rem auto;
+    text-align: left;
+    font-size: 13px;
+}
+
+.content .letter-images figure {
+    margin: 1rem auto;
+}
+
+
+.content .letter-images figure figcaption {
+    margin: 2rem auto .5rem auto;
+    text-align: left;
+    font-size: 13px;
+
+}
+
+.content .letter-images figure img {
+    margin: auto;
 }

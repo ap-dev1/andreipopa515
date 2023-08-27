@@ -11,7 +11,7 @@ export default function LettersPage() {
 
             <LetterToEmory />
 
-            {lettersData.map((letter) => {
+            {/* {lettersData.map((letter) => {
                 return (
                     <LetterTemplate
                         meta={letter.meta}
@@ -20,7 +20,7 @@ export default function LettersPage() {
                         text={letter.text}
                     />
                 )
-            })}
+            })} */}
         </div>
     )
 }
