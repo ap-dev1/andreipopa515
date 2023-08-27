@@ -46,7 +46,7 @@ export default function NavBar() {
 
             <CustomLink to="/letters">Letters
                 <sup className="new">
-                    Aug 17
+                    Aug 27
                 </sup >
             </CustomLink>
 

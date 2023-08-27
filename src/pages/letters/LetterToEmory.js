@@ -1,6 +1,9 @@
 import "./letter-to-emory.css"
 import React, { useState } from "react"
 import parse from "html-react-parser"
+import unableToConfirm from "./verification-certificate-210677797.pdf"
+import fakeAward from "./teacher-scholar-award-clearer.jpg"
+import letterJack from "./letter-jack-mcdowell.pdf"
 
 
 export default function LetterToEmory(props) {
@@ -18,13 +21,6 @@ export default function LetterToEmory(props) {
                     <p className="meta"> To my Alma Mater, Emory University</p>
                     <h1 className="title">Dear Alma Mater,</h1>
                     <p className="date">August 26, 2023</p>
-                    {/* <div className="tags">
-                        {props.tags ? props.tags.map(tag => {
-                            return (
-                                <span className="tag">{tag}</span>
-                            )
-                        }) : null}
-                    </div> */}
                 </div>
             </header>
 
@@ -78,14 +74,10 @@ export default function LetterToEmory(props) {
 
 
 
-            <div className="letter-images">
-
-            </div>
 
 
-            <br />
 
-            <footer>
+            <div className="letter-links"  >
 
                 <p className="footer-link">
                     <b>Dissertation: </b>
@@ -143,13 +135,39 @@ export default function LetterToEmory(props) {
                     </a>
                 </p>
 
+            </div>
 
 
 
+            <div
+                className="letter-images"
+                style={{ textAlign: "center" }}
+            >
+                <object
+                    data={unableToConfirm}
+                    width="100%"
+                    height="400"
+                    type="application/pdf"
+                ></object>
+
+                <img
+                    src={fakeAward}
+                    alt="a made up award, just for me"
+                    height="400"
+
+                ></img>
 
 
+                <object
+                    data={letterJack}
+                    width="100%"
+                    height="400"
+                    type="application/pdf"
+                ></object>
 
-            </footer>
+            </div>
+
+
 
         </article>
     )
