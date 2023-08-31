@@ -5,6 +5,10 @@ import unableToConfirm from "./verification-certificate-210677797.pdf"
 import fakeAward from "./teacher-scholar-award-clearer.jpg"
 import letterJack from "./letter-jack-mcdowell.pdf"
 
+import cvpdf from "./popa-cv.pdf"
+import researchpdf from "./popa-research-statement.pdf"
+import teachingpdf from "./popa-teaching-philosophy-portfolio.pdf"
+// import cv from "./popa-cv.pdf"
 
 export default function LetterToEmory(props) {
     const [open, setopen] = useState(true)
@@ -219,6 +223,36 @@ export default function LetterToEmory(props) {
                             height="400"
                         ></object>
 
+
+                        <p className="object-caption">
+                            <b>Curriculum Vitae</b> Compare with the letter of reccommendation above. Note the teaching award on the first page. Imagine a potential employer that reads these application materials and learns that the degree cannot be confirmed and that the award is non-existent. And that's just the first page, without reading the letter.
+                        </p>
+                        <object
+                            data={cvpdf}
+                            type="application/pdf"
+                            width="100%"
+                            height="400"
+                        ></object>
+
+                        <p className="object-caption">
+                            <b>Research statement</b>
+                        </p>
+                        <object
+                            data={researchpdf}
+                            type="application/pdf"
+                            width="100%"
+                            height="400"
+                        ></object>
+
+                        <p className="object-caption">
+                            <b>Teaching philosophy and portfolio</b>
+                        </p>
+                        <object
+                            data={teachingpdf}
+                            type="application/pdf"
+                            width="100%"
+                            height="400"
+                        ></object>
                     </div>
 
 
