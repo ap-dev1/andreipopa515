@@ -1,12 +1,15 @@
 {
   "files": {
     "main.css": "/andreipopa515/static/css/main.63a59f17.css",
-    "main.js": "/andreipopa515/static/js/main.19c7c1d3.js",
+    "main.js": "/andreipopa515/static/js/main.f4ab99b7.js",
     "static/media/verification-certificate-210677797.pdf": "/andreipopa515/static/media/verification-certificate-210677797.72d383f654c6f597a567.pdf",
     "static/media/adhd13-evolution-over-time-12k.gif": "/andreipopa515/static/media/adhd13-evolution-over-time-12k.9d95a641289d6ed26eeb.gif",
     "static/media/teacher-scholar-award-clearer.jpg": "/andreipopa515/static/media/teacher-scholar-award-clearer.d308931599598f4cf03e.jpg",
     "static/media/zebra-fish-neurons.gif": "/andreipopa515/static/media/zebra-fish-neurons.d387f58561e59cb5c058.gif",
+    "static/media/popa-teaching-philosophy-portfolio.pdf": "/andreipopa515/static/media/popa-teaching-philosophy-portfolio.98fb58c33e7b26590347.pdf",
+    "static/media/popa-research-statement.pdf": "/andreipopa515/static/media/popa-research-statement.c351af4ca38bac98752a.pdf",
     "static/media/change-in-state.gif": "/andreipopa515/static/media/change-in-state.62e266375fc78a5142f8.gif",
+    "static/media/popa-cv.pdf": "/andreipopa515/static/media/popa-cv.4c1eaddadaba93974061.pdf",
     "static/media/adhd_02_impulsive_agent_good_environ.png": "/andreipopa515/static/media/adhd_02_impulsive_agent_good_environ.7eafef8856fed90e0b9e.png",
     "static/media/adhd_01_impulsive_agent.png": "/andreipopa515/static/media/adhd_01_impulsive_agent.6b5397de8dd6af29e01f.png",
     "static/media/adhd15-impulsive-agent-good-environ.webp": "/andreipopa515/static/media/adhd15-impulsive-agent-good-environ.df3db155f92cc42d1174.webp",
@@ -34,10 +37,10 @@
     "static/media/profile515.webp": "/andreipopa515/static/media/profile515.150b05daa6101cf873e0.webp",
     "index.html": "/andreipopa515/index.html",
     "main.63a59f17.css.map": "/andreipopa515/static/css/main.63a59f17.css.map",
-    "main.19c7c1d3.js.map": "/andreipopa515/static/js/main.19c7c1d3.js.map"
+    "main.f4ab99b7.js.map": "/andreipopa515/static/js/main.f4ab99b7.js.map"
   },
   "entrypoints": [
     "static/css/main.63a59f17.css",
-    "static/js/main.19c7c1d3.js"
+    "static/js/main.f4ab99b7.js"
   ]
 }
