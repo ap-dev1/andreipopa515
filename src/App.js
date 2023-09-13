@@ -31,12 +31,16 @@ function App() {
 
 
 
-      <div className="container">
+      <div className="container ">
         {/* <Component /> */}
 
         <Routes>
           {/* <Route path="/" element={<HomePage />}></Route> */}
-          <Route path="/" element={<HomePage />}></Route>
+
+
+          {/* <Route path="/" element={<HomePage />}></Route> */}
+
+          <Route path="/" element={<LinksPage />}></Route>
 
           <Route path="/adhd" element={<AdhdPage />}></Route>
           <Route path="/backstory" element={<BackstoryPage />}></Route>
@@ -52,7 +56,7 @@ function App() {
           {/* <Route path="/blog" element={<BlogPosts />}></Route> */}
           <Route path="/letters" element={<LettersPage />}></Route>
 
-          <Route path="/links" element={<LinksPage />}></Route>
+          {/* <Route path="/links" element={<LinksPage />}></Route> */}
           {/* <Route path="/imperfect-automata" element={<Automaton />}></Route> */}
 
         </Routes>

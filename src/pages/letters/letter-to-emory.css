@@ -7,15 +7,21 @@
     color: rgb(15, 15, 15);
     border-bottom: 2px solid #333;
     cursor: pointer;
-    transition: .5s ease-in-out;
+    transition: .2s;
+    font-weight: 500;
+    font-size: 18px;
+
+
+
 
 }
 
 
 
 .letter-to-emory header:hover {
-    background-color: rgba(218, 243, 252, 0.7);
-    transition: .5s ease-in-out;
+    /* background-color: rgba(218, 243, 252, 0.7); */
+    transition: .2s;
+    font-weight: 700;
 
 }
 

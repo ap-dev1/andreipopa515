@@ -50,7 +50,7 @@ export default function NavBar() {
                 </sup >
             </CustomLink>
 
-            <CustomLink to="/links">Contact</CustomLink>
+            {/* <CustomLink to="/links">Contact</CustomLink> */}
             {/* <CustomLink to="/imperfect-automata">Automata</CustomLink> */}
 
         </ul>

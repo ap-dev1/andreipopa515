@@ -5,6 +5,10 @@ import LetterTemplate from "./LetterTemplate"
 import { lettersData } from "./lettersData";
 import LetterToEmory from "./LetterToEmory";
 
+import ReactGA from "react-ga4";
+ReactGA.initialize("G-MB2HPVP47E");
+
+
 export default function LettersPage() {
     return (
         <div className="letters">

@@ -141,10 +141,7 @@ export const faqData = [
         answer: ["I'm done pretending. I grew up conditioned to think that standing up for myself makes me a bad person, an agressor. I let people walk all over me and I always reacted too late or not at all. Speaking up requires a lot of me and I would rather not do this, but I don't feel I have a choice. If I don't speak up for myself no one will. I think my life has value even if others refuse to see it. "]
     },
 
-    {
-        question: "How do you cope with solitude, loneliness?",
-        answer: ["Work keeps me going, the hope that I will be able to dedicate myself fully, unconstrained. I code, I read, I try to hold on to my sense of humor and wonder. It's hard though."]
-    },
+    
 
     // {
     //     question: "Why didn't you say something earlier?",

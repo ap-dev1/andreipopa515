@@ -8,7 +8,7 @@ import letterJack from "./letter-jack-mcdowell.pdf"
 import cvpdf from "./popa-cv.pdf"
 import researchpdf from "./popa-research-statement.pdf"
 import teachingpdf from "./popa-teaching-philosophy-portfolio.pdf"
-// import cv from "./popa-cv.pdf"
+import transcriptpdf from "./3619529_eTranscript - Andrei Popa.pdf"
 
 export default function LetterToEmory(props) {
     const [open, setopen] = useState(true)
@@ -81,7 +81,7 @@ export default function LetterToEmory(props) {
 
                     <div className="letter-signature">
                         <p >Sincerely,</p>
-                        <p >Dr. Andrei Popa, PhD</p>
+                        <p >Andrei Popa, PhD</p>
                         <p >Emory University 2013</p>
                     </div>
 
@@ -244,15 +244,32 @@ export default function LetterToEmory(props) {
                             height="400"
                         ></object>
 
+
                         <p className="object-caption">
                             <b>Teaching philosophy and portfolio</b>
                         </p>
+
+
                         <object
                             data={teachingpdf}
                             type="application/pdf"
                             width="100%"
                             height="400"
                         ></object>
+
+
+                        {/* <p className="object-caption">
+                            <b>Emory transcript</b>
+                        </p>
+                        <object
+                            data={transcriptpdf}
+
+                            type="application/pdf"
+                            width="100%"
+                            height="400"
+                        ></object> */}
+
+
                     </div>
 
 

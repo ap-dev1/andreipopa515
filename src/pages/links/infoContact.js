@@ -13,6 +13,17 @@ var infoContact = [
     // https://ko-fi.com/fixmachina
     // 
 
+    {
+        name: "Portfolio",
+        url: "https://andreipopa.dev",
+        key: 101,
+        image_src: "",
+        info: "description of my work, live demo, highlights",
+        label: "research"
+    },
+
+
+
 
     {
         name: "andrei.popa.dev@gmail.com",
