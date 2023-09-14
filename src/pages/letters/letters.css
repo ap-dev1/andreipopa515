@@ -11,6 +11,19 @@
     width: 650px;
     max-width: 100%;
     margin: auto;
+    cursor: pointer;
+    background-color: tomato;
+    background-color: rgba(255, 99, 71, 0.2);
+    background-color: rgba(137, 227, 167, 0.307);
+
+
+}
+
+
+.letters header:hover {
+
+    background-color: rgba(255, 99, 71, 0.4);
+
 }
 
 
@@ -26,10 +39,11 @@
     width: 600px;
     max-width: 100%;
     margin: auto;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     text-align: left;
-    background-color: rgb(239, 239, 239);
+    /* background-color: rgb(239, 239, 239); */
     margin-bottom: 0;
+    /* background-color: rgba(255, 99, 71, 0.532); */
 
 }

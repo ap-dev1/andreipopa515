@@ -28,6 +28,7 @@ export default function LetterTemplate(props) {
                 </div>
             </header>
 
+
             {open
                 &&
                 <div className="text">
