@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/andreipopa515/static/css/main.3c2227ff.css",
+    "main.css": "/andreipopa515/static/css/main.a0ebc773.css",
     "main.js": "/andreipopa515/static/js/main.e1c3f4a1.js",
     "static/media/verification-certificate-210677797.pdf": "/andreipopa515/static/media/verification-certificate-210677797.72d383f654c6f597a567.pdf",
     "static/media/adhd13-evolution-over-time-12k.gif": "/andreipopa515/static/media/adhd13-evolution-over-time-12k.9d95a641289d6ed26eeb.gif",
@@ -37,11 +37,11 @@
     "static/media/etbd05-mutation.webp": "/andreipopa515/static/media/etbd05-mutation.f9899bac0158609fcef1.webp",
     "static/media/profile515.webp": "/andreipopa515/static/media/profile515.150b05daa6101cf873e0.webp",
     "index.html": "/andreipopa515/index.html",
-    "main.3c2227ff.css.map": "/andreipopa515/static/css/main.3c2227ff.css.map",
+    "main.a0ebc773.css.map": "/andreipopa515/static/css/main.a0ebc773.css.map",
     "main.e1c3f4a1.js.map": "/andreipopa515/static/js/main.e1c3f4a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c2227ff.css",
+    "static/css/main.a0ebc773.css",
     "static/js/main.e1c3f4a1.js"
   ]
 }
