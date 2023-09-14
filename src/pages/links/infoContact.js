@@ -153,6 +153,15 @@ var infoContact = [
     },
 
 
+    {
+        name: "TikTok",
+        url: "nah, too old :))",
+        key: 3,
+        image_src: "",
+        info: "",
+        label: "social"
+    },
+
 
     //================================
 

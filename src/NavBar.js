@@ -16,25 +16,6 @@ export default function NavBar() {
 
             <CustomLink to="/">Home</CustomLink>
 
-            <CustomLink to="/backstory">Backstory
-                <sup className="new">
-                    Aug 17
-                </sup >
-            </CustomLink>
-
-            <CustomLink to="/my-emory-experience">Emory
-                <sup className="new">
-                    Aug 8
-                </sup >
-            </CustomLink>
-
-            <CustomLink to="/faq">FAQ
-                <sup className="new">
-                    Aug 8
-                </sup >
-            </CustomLink>
-
-
 
             <CustomLink to="/adhd">ADHD</CustomLink>
 
@@ -44,14 +25,36 @@ export default function NavBar() {
             <CustomLink to="/sparc">SpARC</CustomLink>
             {/* <CustomLink to="/blog">Blog</CustomLink> */}
 
-            <CustomLink to="/letters">Letters
+
+            <CustomLink to="/backstory">Backstory
                 <sup className="new">
-                    Aug 27
+                    Aug 17
                 </sup >
             </CustomLink>
 
-            {/* <CustomLink to="/links">Contact</CustomLink> */}
-            {/* <CustomLink to="/imperfect-automata">Automata</CustomLink> */}
+            <CustomLink to="/my-emory-experience">Emory
+                <sup className="new">
+                    Sep 14
+                </sup >
+            </CustomLink>
+
+
+
+
+            <CustomLink to="/letters">Letters
+                <sup className="new">
+                    Sep 14
+                </sup >
+            </CustomLink>
+
+
+            <CustomLink to="/faq">FAQ
+                <sup className="new">
+                    Aug 8
+                </sup >
+            </CustomLink>
+
+
 
         </ul>
     </nav>

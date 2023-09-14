@@ -4,6 +4,7 @@ import parse from "html-react-parser"
 import { emory2005, emory2007 } from "./emoryData";
 import EmoryTemplate from "./EmoryTemplate"
 import EmoryIntro from "./EmoryIntro";
+import LetterToEmory from "../letters/LetterToEmory";
 
 
 export default function EmoryExperience() {
@@ -53,6 +54,9 @@ export default function EmoryExperience() {
                 <h1>2020-2023, COVID and beyond</h1>
                 <p>Little by little I realize that I'm confined to an artificial world, in which my credentials are not being corroborated by my Alma Mater, essentially leaving me with a 17-year gap in my CV.</p>
             </article> */}
+
+            <LetterToEmory />
+
 
             <footer
                 style={{ textAlign: "center", fontWeight: "600", fontSize: "12px" }}

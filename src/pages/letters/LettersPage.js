@@ -13,9 +13,9 @@ export default function LettersPage() {
     return (
         <div className="letters">
 
-            <LetterToEmory />
+            {/* <LetterToEmory /> */}
 
-            {/* {lettersData.map((letter) => {
+            {lettersData.map((letter) => {
                 return (
                     <LetterTemplate
                         meta={letter.meta}
@@ -24,7 +24,7 @@ export default function LettersPage() {
                         text={letter.text}
                     />
                 )
-            })} */}
+            })}
         </div>
     )
 }

@@ -4,7 +4,7 @@ import parse from "html-react-parser"
 
 
 export default function LetterTemplate(props) {
-    const [open, setopen] = useState(true)
+    const [open, setopen] = useState(false)
 
     return (
         <article className="letter">
