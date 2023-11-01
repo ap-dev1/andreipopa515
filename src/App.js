@@ -20,6 +20,7 @@ import BackstoryPage from "./pages/backstory/BackstoryPage"
 import EmoryExperience from "./pages/emory/EmoryExperience"
 import LettersPage from "./pages/letters/LettersPage";
 
+import BmiPage from "./pages/bmi/BmiPage";
 
 
 function App() {
@@ -43,6 +44,8 @@ function App() {
           <Route path="/" element={<LinksPage />}></Route>
 
           <Route path="/adhd" element={<AdhdPage />}></Route>
+          <Route path="/bmi" element={<BmiPage />}></Route>
+
           <Route path="/backstory" element={<BackstoryPage />}></Route>
 
           <Route path="/my-emory-experience" element={<EmoryExperience />}></Route>

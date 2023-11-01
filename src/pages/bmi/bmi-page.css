@@ -1,0 +1,30 @@
+#bmi-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-container .story {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+.main-container .charts {
+    /* border-color: rgb(255, 99, 132); */
+    border-color: rgb(255, 99, 132);
+    border-color: rgb(99, 255, 203);
+
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+}
+
+.story p {
+    text-align: left;
+    width: 400px;
+}

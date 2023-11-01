@@ -98,6 +98,15 @@ var infoContact = [
 
     //===============================
 
+    {
+        name: "Date me",
+        url: "https://medium.com/@andreipopa515/dating-profile-25bf607e0fc7",
+        key: 202,
+        image_src: "dating-profile.jpg",
+        info: "",
+        label: "social"
+    },
+
 
     {
         name: "GitHub",
@@ -226,7 +235,7 @@ var infoContact = [
 
 
     {
-        name: "Endorse my work",
+        name: "Sponsor me",
         url: "https://ko-fi.com/fixmachina",
         key: 2,
         image_src: "",

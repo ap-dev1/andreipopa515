@@ -19,6 +19,11 @@ export default function NavBar() {
 
             <CustomLink to="/adhd">ADHD</CustomLink>
 
+            <CustomLink to="/bmi">BMI
+                <sup className="new">
+                    Oct 31
+                </sup >
+            </CustomLink>
             {/* <CustomLink to="/theory" >Theory</CustomLink> */}
             <CustomLink to="/service">Service</CustomLink>
             <CustomLink to="/etbd">etbd</CustomLink>
@@ -27,31 +32,31 @@ export default function NavBar() {
 
 
             <CustomLink to="/backstory">Backstory
-                <sup className="new">
+                {/* <sup className="new">
                     Aug 17
-                </sup >
+                </sup > */}
             </CustomLink>
 
             <CustomLink to="/my-emory-experience">Emory
-                <sup className="new">
+                {/* <sup className="new">
                     Sep 14
-                </sup >
+                </sup > */}
             </CustomLink>
 
 
 
 
             <CustomLink to="/letters">Letters
-                <sup className="new">
+                {/* <sup className="new">
                     Sep 14
-                </sup >
+                </sup > */}
             </CustomLink>
 
 
             <CustomLink to="/faq">FAQ
-                <sup className="new">
+                {/* <sup className="new">
                     Aug 8
-                </sup >
+                </sup > */}
             </CustomLink>
 
 

@@ -1,0 +1,25 @@
+#bmi-page {
+    display: flex;
+    flex-direction: column;
+    /* margin: 0; */
+    justify-content: space-around;
+}
+
+
+#bmi-calculator {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+#div-values {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#bmi-result {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
