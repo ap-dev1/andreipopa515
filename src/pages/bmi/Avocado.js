@@ -50,11 +50,34 @@ const glucose = getGlucose(myData)
 // console.log("timestamp: ", aa)
 
 
+const optionsPounds = {
+    maintainAspectRatio: false,
+    scales: {
+        y: {
+            // beginAtZero: true,
+            min: 100,
+            max: 190,
+        }
+    }
+}
 
+
+const optionsGlucose = {
+    maintainAspectRatio: false,
+    scales: {
+        y: {
+            // beginAtZero: true,
+            min: 50,
+            max: 150,
+        }
+    }
+
+}
 
 
 const data = {
     // labels: dates,
+
     labels: customLabels,
     datasets: [
         {
@@ -81,27 +104,22 @@ const data1 = {
 
 const LineChart = () => {
     return (
-        <>
+        <div>
             <div
                 style={{
-                    // width: "400px",
-                    // height: "300px",
-                    // margin: "1rem auto",
+                    height: "250px",
                 }}
             >
-                <Line data={data} />
+                <Line data={data} options={optionsPounds} />
             </div>
-
             <div
                 style={{
-                    // width: "400px",
-                    // height: "300px",
-                    // margin: "1rem auto",
+                    height: "250px",
                 }}
             >
-                <Line data={data1} />
+                <Line data={data1} options={optionsGlucose} />
             </div>
-        </>
+        </div>
     );
 };
 
