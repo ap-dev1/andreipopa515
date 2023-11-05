@@ -366,4 +366,13 @@ export const myData = [
         notes: "just woke up",
         deltaTime: 0,
     },
+    {
+        date: "2023-11-05T16:00:00.000Z",
+        timestamp: 1699200000000,
+        label: "Nov 5",
+        pounds: 114,
+        glucose: 71,
+        notes: "23rd consecutive day with zero calories. I've been surviving on expresso ice cubes so far.",
+        deltaTime: 0,
+    },
 ]
