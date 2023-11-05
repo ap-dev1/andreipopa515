@@ -8,9 +8,27 @@ export const myData = [
     // console.log(d.getUTCMinutes());
     // console.log(d.getUTCSeconds());
     {
+        date: "2022-20-18T12:00:00.000Z",
+        timestamp: 1669118400000,
+        label: "Nov 2022",
+        pounds: 190,
+        glucose: 100,
+        notes: "After 450 days of training everyday",
+        deltaTime: 0,
+    },
+    {
+        date: "2023-09-18T12:00:00.000Z",
+        timestamp: 1695038400000,
+        label: "Sep 18",
+        pounds: 135,
+        glucose: 100,
+        notes: "notes",
+        deltaTime: 0,
+    },
+    {
         date: "2023-10-18T22:45:00.000Z",
         timestamp: 1303963200000,
-        label: "18",
+        label: "Oct 18",
         pounds: 129.0,
         glucose: 100,
         notes: "notes",
@@ -20,7 +38,7 @@ export const myData = [
     {
         date: "2023-10-19T15:45:00.000Z",
         timestamp: 1697730300000,
-        label: "19",
+        label: "Oct 19",
 
         pounds: 125.8,
         glucose: 100,
@@ -31,7 +49,7 @@ export const myData = [
     {
         date: "2023-10-20T15:15:00.000Z",
         timestamp: 1697814900000,
-        label: "20",
+        label: "Oct 20",
         pounds: 125.0,
         glucose: 100,
         notes: "notes",
@@ -40,8 +58,7 @@ export const myData = [
     {
         date: "2023-10-21T11:15:00.000Z",
         timestamp: 1697886900000,
-        label: "21",
-
+        label: "Oct 21",
         pounds: 123.8,
         glucose: 100,
         notes: "notes",
@@ -50,8 +67,7 @@ export const myData = [
     {
         date: "2023-10-22T17:00:00.000Z",
         timestamp: 1697994000000,
-        label: "22",
-
+        label: "Oct 22",
         pounds: 121.6,
         glucose: 100,
         notes: "notes",
@@ -60,8 +76,7 @@ export const myData = [
     {
         date: "2023-10-23T09:00:00.000Z",
         timestamp: 1698051600000,
-        label: "23",
-
+        label: "Oct 23",
         pounds: 121.0,
         glucose: 100,
         notes: "notes",
@@ -70,8 +85,7 @@ export const myData = [
     {
         date: "2023-10-24T00:15:00.000Z",
         timestamp: 1698106500000,
-        label: "24",
-
+        label: "Oct 24",
         pounds: 122.0,
         glucose: 98,
         notes: "notes",
@@ -83,7 +97,7 @@ export const myData = [
     {
         date: "2023-10-25T12:00:00.000Z",
         timestamp: 1698235200000,
-        label: "25",
+        label: "Oct 25",
         pounds: 122,
         glucose: 81,
         notes: "notes",
@@ -92,7 +106,7 @@ export const myData = [
     {
         date: "2023-10-25T22:00:00.000Z",
         timestamp: 1698271200000,
-        label: "+10h",
+        label: "Oct 25",
         pounds: 122,
         glucose: 79,
         notes: "notes",
@@ -103,7 +117,7 @@ export const myData = [
     {
         date: "2023-10-26T05:00:00.000Z",
         timestamp: 1698296400000,
-        label: "26",
+        label: "Oct 26",
         pounds: 122,
         glucose: 82,
         notes: "notes",
@@ -112,7 +126,7 @@ export const myData = [
     {
         date: "2023-10-26T16:00:00.000Z",
         timestamp: 1698336000000,
-        label: "+10h",
+        label: "Oct 26",
         pounds: 122,
         glucose: 92,
         notes: "notes",
@@ -123,7 +137,7 @@ export const myData = [
     {
         date: "2023-10-27T02:00:00.000Z",
         timestamp: 1698372000000,
-        label: "27",
+        label: "Oct 27",
         pounds: 121,
         glucose: 82,
         notes: "notes",
@@ -132,7 +146,7 @@ export const myData = [
     {
         date: "2023-10-27T15:00:00.000Z",
         timestamp: 1698418800000,
-        label: "+14h",
+        label: "Oct 27",
         pounds: 121,
         glucose: 101,
         notes: "after cleaning the place and moving around",
@@ -141,7 +155,7 @@ export const myData = [
     {
         date: "2023-10-27T19:00:00.000Z",
         timestamp: 1698433200000,
-        label: "+4h",
+        label: "Oct 27",
         pounds: 121.0,
         glucose: 85,
         notes: "after rest",
@@ -153,7 +167,7 @@ export const myData = [
     {
         date: "2023-10-28T06:00:00.000Z",
         timestamp: 1698472800000,
-        label: "28",
+        label: "Oct 28",
         pounds: 120.6,
         glucose: 78,
         notes: "notes",
@@ -162,7 +176,7 @@ export const myData = [
     {
         date: "2023-10-28T14:00:00.000Z",
         timestamp: 1698501600000,
-        label: "+8h",
+        label: "Oct 28",
         pounds: 121.0,
         glucose: 102,
         notes: "moved around, read, wrote code",
@@ -171,7 +185,7 @@ export const myData = [
     {
         date: "2023-10-28T22:00:00.000Z",
         timestamp: 1698530400000,
-        label: "+8h",
+        label: "Oct 28",
         pounds: 120.0,
         glucose: 79,
         notes: "notes",
@@ -182,7 +196,7 @@ export const myData = [
     {
         date: "2023-10-29T07:00:00.000Z",
         timestamp: 1698562800000,
-        label: "29",
+        label: "Oct 29",
         pounds: 119.4,
         glucose: 75,
         notes: "notes",
@@ -191,7 +205,7 @@ export const myData = [
     {
         date: "2023-10-29T12:00:00.000Z",
         timestamp: 1698580800000,
-        label: "+5h",
+        label: "Oct 29",
         pounds: 118.4,
         glucose: 72,
         notes: "slept very well since last measurement",
@@ -200,7 +214,7 @@ export const myData = [
     {
         date: "2023-10-29T15:00:00.000Z",
         timestamp: 1698591600000,
-        label: "+3h",
+        label: "Oct 29",
         pounds: 118.2,
         glucose: 88,
         notes: "Moved around since last measurement",
@@ -209,7 +223,7 @@ export const myData = [
     {
         date: "2023-10-29T17:00:00.000Z",
         timestamp: 1698598800000,
-        label: "+2h",
+        label: "Oct 29",
         pounds: 118.0,
         glucose: 80,
         notes: "notes",
@@ -218,7 +232,7 @@ export const myData = [
     {
         date: "2023-10-29T22:00:00.000Z",
         timestamp: 1698616800000,
-        label: "+5h",
+        label: "Oct 29",
         pounds: 118,
         glucose: 77,
         notes: "notes",
@@ -228,7 +242,7 @@ export const myData = [
     {
         date: "2023-10-30T09:00:00.000Z",
         timestamp: 1698656400000,
-        label: "30",
+        label: "Oct 30",
         pounds: 117.8,
         glucose: 67,
         notes: "just woke up",
@@ -237,7 +251,7 @@ export const myData = [
     {
         date: "2023-10-30T12:00:00.000Z",
         timestamp: 1698667200000,
-        label: "+3h",
+        label: "Oct 30",
         pounds: 118.2,
         glucose: 81,
         notes: "active-ish",
@@ -246,7 +260,7 @@ export const myData = [
     {
         date: "2023-10-30T18:00:00.000Z",
         timestamp: 1698688800000,
-        label: "+6h",
+        label: "Oct 30",
         pounds: 117.4,
         glucose: 77,
         notes: "worked all day on this very project",
@@ -256,7 +270,7 @@ export const myData = [
     {
         date: "2023-10-30T22:00:00.000Z",
         timestamp: 1698703200000,
-        label: "+4h",
+        label: "Oct 30",
         pounds: 117.4,
         glucose: 74,
         notes: "kept working on this",
@@ -267,7 +281,7 @@ export const myData = [
     {
         date: "2023-10-31T10:00:00.000Z",
         timestamp: 1698746400000,
-        label: "31",
+        label: "Oct 31",
         pounds: 116.5,
         glucose: 70,
         notes: "slept four hours",
@@ -276,11 +290,80 @@ export const myData = [
 
     {
         date: "2023-10-31T15:00:00.000Z",
-        timestamp: 1698746400000,
-        label: "+5h",
+        timestamp: 1698764400000,
+        label: "Oct 31",
         pounds: 116.4,
         glucose: 79,
         notes: "expresso cubes, working, slowly",
+        deltaTime: 0,
+    },
+    {
+        date: "2023-11-01T10:00:00.000Z",
+        timestamp: 1698832800000,
+        label: "Nov 1",
+        pounds: 116,
+        glucose: 80,
+        notes: "moved around, very cold",
+        deltaTime: 0,
+    },
+    {
+        date: "2023-11-01T16:00:00.000Z",
+        timestamp: 1698854400000,
+        label: "Nov 1",
+        pounds: 116,
+        glucose: 85,
+        notes: "pretty active, cold, moved around, programming",
+        deltaTime: 0,
+    },
+    {
+        date: "2023-11-01T22:00:00.000Z",
+        timestamp: 1698876000000,
+        label: "Nov1",
+        pounds: 116,
+        glucose: 71,
+        notes: "glucose levels dropped to around 80 again, which seems to be my new baseline.",
+    },
+    {
+        date: "2023-11-02T03:00:00.000Z",
+        timestamp: 1698894000000,
+        label: "Nov 2",
+        pounds: 116,
+        glucose: 68,
+        notes: "Couldn't sleep and worked on my repo, made the date to timestamp converter and the BMI calculator.",
+    },
+    {
+        date: "2023-11-01T14:00:00.000Z",
+        timestamp: 1698847200000,
+        label: "Nov 2",
+        pounds: 116,
+        glucose: 103,
+        notes: "Walked to target, bought heater, walked back. Walked to Publix, bought Monk Fruit and discounted Halloween bowls to replant my rattlesnake and the little lemon and grapefruit trees. Oh, and cute napkins :) The rise in glucose was a reaction to physical effort.",
+    },
+    {
+        date: "2023-11-02T18:30:00.000Z",
+        timestamp: 1698949800000,
+        label: "Nov 2",
+        pounds: 117,
+        glucose: 78,
+        notes: "Glucose went down to 80 after rest. The increase in weight was not an accident. I didn't ingest any calories, so probably came from burning some muscle tissue.",
+        deltaTime: 0,
+    },
+    {
+        date: "2023-11-03T22:00:00.000Z",
+        timestamp: 1699048800000,
+        label: "Nov 3",
+        pounds: 116,
+        glucose: 72,
+        notes: "Pear liqueur, home made. Took a sip, it's really good, but I didn't feel like drinking. Some other time.",
+        deltaTime: 0,
+    },
+    {
+        date: "2023-11-04T10:00:00.000Z",
+        timestamp: 1699092000000,
+        label: "Nov 4",
+        pounds: 114.2,
+        glucose: 69,
+        notes: "just woke up",
         deltaTime: 0,
     },
 ]

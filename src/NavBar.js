@@ -21,7 +21,7 @@ export default function NavBar() {
 
             <CustomLink to="/bmi">BMI
                 <sup className="new">
-                    Oct 31
+                    beta
                 </sup >
             </CustomLink>
             {/* <CustomLink to="/theory" >Theory</CustomLink> */}
