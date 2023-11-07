@@ -44,7 +44,7 @@ function App() {
           <Route path="/" element={<LinksPage />}></Route>
 
           <Route path="/adhd" element={<AdhdPage />}></Route>
-          <Route path="/bmi" element={<BmiPage />}></Route>
+          <Route path="/chartjs" element={<BmiPage />}></Route>
 
           <Route path="/backstory" element={<BackstoryPage />}></Route>
 

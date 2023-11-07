@@ -15,6 +15,7 @@ const labels = getLabels(myData)
 
 
 const dataGlucose = {
+    maintainAspectRatio: false,
     labels: customLabels,
     datasets: [
         {
@@ -44,16 +45,7 @@ const optionsGlucose = {
 
 const LineChartGlucose = () => {
     return (
-        <div
-            style={{
-                // height: "400px",
-                //minHeight: "600px",
-                border: "1px solid grey",
-            }}
-        >
-            <Line data={dataGlucose} options={optionsGlucose} />
-
-        </div>
+        <Line data={dataGlucose} options={optionsGlucose} />
     );
 };
 

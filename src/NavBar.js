@@ -19,10 +19,10 @@ export default function NavBar() {
 
             <CustomLink to="/adhd">ADHD</CustomLink>
 
-            <CustomLink to="/bmi">BMI
-                <sup className="new">
-                    beta
-                </sup >
+            <CustomLink to="/chartjs">Chart.js
+                {/* <sup className="new">
+                    new
+                </sup > */}
             </CustomLink>
             {/* <CustomLink to="/theory" >Theory</CustomLink> */}
             <CustomLink to="/service">Service</CustomLink>
