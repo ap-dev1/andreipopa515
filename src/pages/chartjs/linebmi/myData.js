@@ -480,7 +480,22 @@ export const myData = [
         notes: "29th day. Slept ery well after working on Project 1. I will finalize after I enter this data point. I moved around, I drank a mug of coffee of reasonable size, but the coffee was unreasonably good, Illy, my absolute favorite, both filter and expresso varieties. Added three packs of Monk Fruit ",
         deltaTime: 0,
         latinNotes: [
-            "Learn to labor", "and to wait"
+            "Learn to labor", "and to wait."
         ],
     },
+
+    {
+        date: "2023-11-11T08:00:00.000Z",
+        timestamp: 1699708201,
+        label: "Nov 11",
+        pounds: 111.9,
+        glucose: 87,
+        notes: "Published LineBmi; Radar is almost ready, needs styles. 30th day of fasting. I was actie though, focused, got things done. I don't know how much punishment my body can take",
+        deltaTime: 0,
+        latinNotes: [
+            "Bona fide.", "In good faith."
+        ],
+    },
+
+
 ]

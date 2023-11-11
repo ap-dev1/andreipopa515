@@ -68,7 +68,7 @@ const label = (tooltipItems) => {
     //tooltipItem.dataset.notes[tooltipItem.dataIndex]
     //console.log("tooltipItem.dataset.bmi: ", tooltipItems.dataset.bmi[tooltipItems.dataIndex])
     let metric = parseFloat(tooltipItems.formattedValue) / 2.204623
-    let a = parseFloat(tooltipItems.formattedValue).toFixed(0) + 'lbs ('
+    let a = parseFloat(tooltipItems.formattedValue).toFixed(1) + 'lbs ('
     let b = metric.toFixed(1) + 'kg), bmi '
     let c = tooltipItems.dataset.bmi[tooltipItems.dataIndex]
     return a + b + c;

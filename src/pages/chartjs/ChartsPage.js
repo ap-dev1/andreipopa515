@@ -1,6 +1,8 @@
 import "./charts-page.css";
 import React from "react";
 import LineBmi from "./linebmi/LineBmi";
+import RadarChart from "./radar/RadarChart";
+
 
 export default function ChartsPage() {
     return (
@@ -34,6 +36,25 @@ export default function ChartsPage() {
                         <LineBmi />
                     </td>
                 </tr>
+
+
+
+                <tr>
+                    <td
+                        colSpan={2}
+                    >
+                        <p style={{ width: "400px", textAlign: "left", margin: "auto" }}>
+                            RADAR charts, or polar, or spider, can display multidimensional data with ease. I find them useful to show differences in experimental conditions on collections of dependent ....
+
+                        </p>
+                    </td>
+
+                    <td style={{ height: "400px", width: "600px" }}>
+                        <RadarChart />
+                    </td>
+                </tr>
+
+
 
                 <tr>
                     <td style={{ height: "300px" }}>
