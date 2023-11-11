@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/andreipopa515/static/css/main.e98c5347.css",
-    "main.js": "/andreipopa515/static/js/main.89f70145.js",
+    "main.js": "/andreipopa515/static/js/main.1644589a.js",
     "static/media/verification-certificate-210677797.pdf": "/andreipopa515/static/media/verification-certificate-210677797.72d383f654c6f597a567.pdf",
     "static/media/adhd13-evolution-over-time-12k.gif": "/andreipopa515/static/media/adhd13-evolution-over-time-12k.9d95a641289d6ed26eeb.gif",
     "static/media/teacher-scholar-award-clearer.jpg": "/andreipopa515/static/media/teacher-scholar-award-clearer.d308931599598f4cf03e.jpg",
@@ -38,10 +38,10 @@
     "static/media/profile515.webp": "/andreipopa515/static/media/profile515.150b05daa6101cf873e0.webp",
     "index.html": "/andreipopa515/index.html",
     "main.e98c5347.css.map": "/andreipopa515/static/css/main.e98c5347.css.map",
-    "main.89f70145.js.map": "/andreipopa515/static/js/main.89f70145.js.map"
+    "main.1644589a.js.map": "/andreipopa515/static/js/main.1644589a.js.map"
   },
   "entrypoints": [
     "static/css/main.e98c5347.css",
-    "static/js/main.89f70145.js"
+    "static/js/main.1644589a.js"
   ]
 }
