@@ -21,6 +21,7 @@ import EmoryExperience from "./pages/emory/EmoryExperience"
 import LettersPage from "./pages/letters/LettersPage";
 
 import BmiPage from "./pages/bmi/BmiPage";
+import ChartsPage from "./pages/chartjs/ChartsPage";
 
 
 function App() {
@@ -44,7 +45,10 @@ function App() {
           <Route path="/" element={<LinksPage />}></Route>
 
           <Route path="/adhd" element={<AdhdPage />}></Route>
-          <Route path="/chartjs" element={<BmiPage />}></Route>
+
+
+          {/* <Route path="/chartjs" element={<BmiPage />}></Route> */}
+          <Route path="/chartjs" element={<ChartsPage />}></Route>
 
           <Route path="/backstory" element={<BackstoryPage />}></Route>
 

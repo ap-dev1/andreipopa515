@@ -4,8 +4,8 @@ import Chart from "chart.js/auto";
 import { Line } from "react-chartjs-2";
 
 import { getLabels, getValues, getDates, getStamps, getPounds, getGlucose, getNotes, getCustomLabels } from './utils';
-import { dummy1 } from './dummyData';
-import { dummy22 } from './tutorialData';
+// import { dummy1 } from './dummyData';
+// import { dummy22 } from './tutorialData';
 import { myData } from './myData';
 
 const dates = getDates(myData)

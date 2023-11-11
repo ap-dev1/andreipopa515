@@ -4,7 +4,7 @@ import BmiCalculator from "./BmiCalculator";
 import DateConverter from "./DateConverter";
 import LineChartWeight from "./chartWeight/ChartWeight";
 import LineChartGlucose from './ChartGlucose';
-
+// import LineChartWeightSandbox from "./chartWeight/ChartWeightSandbox"
 
 import Avocado from "./Avocado"; // category is not a .. ?
 
@@ -43,14 +43,18 @@ export default function BmiPage() {
                         </p>
                     </td>
 
-                    <td
-                        style={{ height: "300px" }}
-                    >
+                    <td style={{ height: "300px" }}>
                         <LineChartWeight />
                     </td>
                 </tr>
 
-
+                <tr>
+                    <td style={{ height: "300px" }}>
+                        {/* <LineChartWeightSandbox /> */}
+                        {/* {LineChartWeightSandbox} */}
+                        <canvas id="myChart"></canvas>
+                    </td>
+                </tr>
 
 
             </table>

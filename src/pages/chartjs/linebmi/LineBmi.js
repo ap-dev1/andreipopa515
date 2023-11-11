@@ -2,9 +2,8 @@ import React from 'react';
 import { parse } from "html-react-parser";
 
 import { Line } from "react-chartjs-2";
-import { getLabels, getValues, getDates, getStamps, getPounds, getGlucose, getNotes, getCustomLabels, getLatinNotes } from '../utils';
-import { myData } from '../myData';
-import { octopus } from "./latin"
+import { getLabels, getValues, getDates, getStamps, getPounds, getGlucose, getNotes, getCustomLabels, getLatinNotes } from './utils';
+import { myData } from './myData';
 
 import { chartElements } from './elements';
 import { chartTitle, chartSubtitle } from "./titles";
@@ -141,10 +140,10 @@ const optionsWeight = {
 }
 
 
-const LineChartWeight = () => {
+const LineBmi = () => {
     return (
         <Line data={dataWeight} options={optionsWeight} />
     );
 };
 
-export default LineChartWeight;
+export default LineBmi;

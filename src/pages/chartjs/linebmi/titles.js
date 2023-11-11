@@ -23,6 +23,7 @@ export const chartTitle = {
     position: 'top',//left, bottom, right
     font: {
         weight: "bold",
+        size: 16
 
     },
     padding: {
@@ -42,13 +43,11 @@ export const chartSubtitle = {
     fullSize: true,//Marks that this box should take the full width/height of the canvas. If false, the box is sized and placed above/beside the chart area.
     position: 'top',//left, bottom, right
     font: {
-        // weight: "bold",
-
-
+        size: 12,
     },
     padding: {
-        top: 1,
-        bottom: 1
+        top: 0,
+        bottom: 15
     },
     text: "enabled by default, flexible, easy to work with" //If specified as an array, text is rendered on multiple lines.
 }
