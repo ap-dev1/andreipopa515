@@ -490,12 +490,58 @@ export const myData = [
         label: "Nov 11",
         pounds: 111.9,
         glucose: 87,
-        notes: "Published LineBmi; Radar is almost ready, needs styles. 30th day of fasting. I was actie though, focused, got things done. I don't know how much punishment my body can take",
+        notes: "Published LineBmi; Radar is almost ready, needs styles. 30th day of fasting. I was actiwe though, focused, got things done. I don't know how much punishment my body can take",
         deltaTime: 0,
         latinNotes: [
             "Bona fide.", "In good faith."
         ],
     },
 
+    {
+        date: "2023-11-15T07:30:00.000Z",
+        timestamp: 1700033400,
+        label: "Nov 16",
+        pounds: 110.5,
+        glucose: 80,
+        notes: "day 35 maybe, I lost track",
+        deltaTime: 0,
+        latinNotes: [
+            "Dum vita est, spes est.", "While there is life, there's hope."
+        ],
+    },
+
+
+    {
+        date: "2023-11-17T15:00:00.000Z",
+        timestamp: 1700168400,
+        label: "Nov 17",
+        pounds: 109,
+        glucose: 81,
+        notes: "Day 36 of absolutely no food. I'm not een hungry anymore",
+        deltaTime: 0,
+        latinNotes: [
+            "Humilitas occidit superbiam.", "Humility conquers pride."
+        ],
+    },
+
+
+
+    //["Pax vobiscum.", "Peace [be] with you."],
+    // ['Fortiter et fideliter.', 'Bravely and faithfully.']
+    // ['Sequere pecuniam.', 'Follow the money.']
+    // ['Omne initium difficile est.', 'Every beginning is difficult.']
+    // ['Sic infit.', 'So it begins.']
+    // ['Ordo ab chaos.', 'Out of chaos, comes order.']
+    // ['Pro bono.', 'For the good.']
+    // ['Libertas perfundet omnia luce.', 'Freedom will flood all things with light.']
+    // ['Ad meliora.', 'Towards better things.']
+    // ['Quam bene non quantum.', 'How well, not how much.']
+    // ['Vincit qui patitur.', 'He conquers who endures.]'
+    // ['Suum cuique.', 'To each his own.']
+    // ['Bono malum superate.', 'Overcome evil with good.']
+    // ['Memores acti prudentes future.', 'Mindful of what has been done, aware of what will be.']
+    // ['Praesis ut prosis ne ut imperes.', 'Lead in order to serve, not in order to rule.']
+    // ['Incepto ne desistam.', 'May I not shrink from my purpose.']
+    // ['Necessitas etiam timidos fortes facit.', 'Need makes even the timid brave.']
 
 ]
