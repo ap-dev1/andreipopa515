@@ -15,11 +15,8 @@ export const myData = [
         glucose: 100,
         notes: "After 450 days of training everyday",
         deltaTime: 0,
-        latinNotes: [
-            "Brevis oratio penetrat coelos", "Longa potatio evacuat scyphos.",
-            "(Short prayers reach heaven.)",
-
-        ],
+        latinNotes: ["Brevis oratio penetrat coelos"],
+        latinTranslation: ["Short prayers reach heaven."],
     },
     {
         date: "2023-09-18T12:00:00.000Z",
@@ -29,10 +26,8 @@ export const myData = [
         glucose: 100,
         notes: "notes",
         deltaTime: 0,
-        latinNotes: [
-            "Diem vesper commendat",
-            "The evening commends", "the day"
-        ],
+        latinNotes: ["Diem vesper commendat."],
+        latinTranslation: ["The evening commends", "the day."],
     },
     {
         date: "2023-10-18T22:45:00.000Z",
@@ -43,8 +38,15 @@ export const myData = [
         notes: "notes",
         deltaTime: 0,
         latinNotes: [
-            "Cuiusvis hominis est", "errare, nullius nisi", "insipientis in errore", "perseverare.",
-            "Anyone makes mistakes;", "only a fool keeps", "making the same one."
+            "Cuiusvis hominis est",
+            "errare, nullius nisi",
+            "insipientis in errore",
+            "perseverare.",
+        ],
+        latinTranslation: [
+            "Anyone makes mistakes;",
+            "only a fool keeps",
+            "making the same one."
         ],
     },
 
@@ -57,7 +59,10 @@ export const myData = [
         notes: "notes",
         deltaTime: 0,
         latinNotes: [
-            "Si vis pacem,", " para bellum.", "If you want peace,", "prepare for war."
+            "Si vis pacem,", " para bellum."
+        ],
+        latinTranslation: [
+            "If you want peace,", "prepare for war."
         ],
     },
 
@@ -69,10 +74,8 @@ export const myData = [
         glucose: 100,
         notes: "notes",
         deltaTime: 0,
-        latinNotes: [
-            "Docendo discimus",
-            "By teaching, we learn."
-        ],
+        latinNotes: ["Docendo discimus."],
+        latinTranslation: ["By teaching, we learn."],
 
     },
     {
@@ -83,10 +86,8 @@ export const myData = [
         glucose: 100,
         notes: "notes",
         deltaTime: 0,
-
-        latinNotes: [
-            "tabula rasa", "clean slate"
-        ],
+        latinNotes: ["Tabula rasa."],
+        latinTranslation: ["Clean slate."],
     },
     {
         date: "2023-10-22T17:00:00.000Z",
@@ -96,9 +97,8 @@ export const myData = [
         glucose: 100,
         notes: "notes",
         deltaTime: 0,
-        latinNotes: [
-            "tempus fugit", "time flies"
-        ],
+        latinNotes: ["Tempus fugit."],
+        latinTranslation: ["Time flies."],
     },
     {
         date: "2023-10-23T09:00:00.000Z",
@@ -109,9 +109,13 @@ export const myData = [
         notes: "notes",
         deltaTime: 0,
         latinNotes: [
-            "quidquid Latine dictum", "sit altum videtur", "anything said in Latin", "sounds profound"
+            "Quidquid Latine dictum",
+            "sit altum videtur.",
         ],
-
+        latinTranslation: [
+            "Anything said in Latin",
+            "sounds profound."
+        ],
     },
     {
         date: "2023-10-24T00:15:00.000Z",
@@ -122,7 +126,13 @@ export const myData = [
         notes: "notes",
         deltaTime: 0,
         latinNotes: [
-            "Vulpem pilum mutat,", "non mores.", "A fox may change", "its hair,", "not its tricks."
+            "Vulpem pilum mutat,",
+            "non mores.",
+        ],
+        latinTranslation: [
+            "A fox may change",
+            "its hair,",
+            "not its tricks."
         ],
     },
 
@@ -145,12 +155,10 @@ export const myData = [
         glucose: 79,
         notes: "notes",
         deltaTime: 0,
-        latinNotes: [
-            "Effectus sequitur causam.",
-            "Efect follows cause."
-        ],
-    },
+        latinNotes: ["Effectus sequitur causam."],
+        latinTranslation: ["Efect follows cause."],
 
+    },
 
     {
         date: "2023-10-26T05:00:00.000Z",
@@ -161,9 +169,14 @@ export const myData = [
         notes: "notes",
         deltaTime: 0,
         latinNotes: [
-            "In propria causa", "nemo debet esse iudex.",
-            "No one should be judge", "in their own trial."
+            "In propria causa",
+            "nemo debet esse iudex.",
         ],
+        latinTranslation:
+            [
+                "No one should be judge",
+                "in their own trial."
+            ]
     },
     // {
     //     date: "2023-10-26T16:00:00.000Z",
@@ -194,7 +207,10 @@ export const myData = [
         notes: "after cleaning the place and moving around",
         deltaTime: 0,
         latinNotes: [
-            "Quis custodiet", "ipsos custodes ?", "Who watches", "the watchmen?"
+            "Quis custodiet", "ipsos custodes?",
+        ],
+        latinTranslation: [
+            "Who watches", "the watchmen?"
         ],
     },
     // {
@@ -227,8 +243,11 @@ export const myData = [
         notes: "moved around, read, wrote code",
         deltaTime: 0,
         latinNotes: [
-            "ceteris paribus",
-            "all other things being equal"
+            "Ceteris paribus.",
+
+        ],
+        latinTranslation: [
+            "All other things", "being equal."
         ],
     },
     // {
@@ -260,7 +279,14 @@ export const myData = [
         notes: "slept very well since last measurement",
         deltaTime: 0,
         latinNotes: [
-            "quod gratis asseritur,", "gratis negatur", "what is asserted", "without reason", "may be denied", "without reason"
+            "Quod gratis asseritur,",
+            "gratis negatur."
+        ],
+        latinTranslation: [
+            "What is asserted",
+            "without reason",
+            "may be denied",
+            "without reason."
         ],
     },
     // {
@@ -317,9 +343,8 @@ export const myData = [
         glucose: 77,
         notes: "worked all day on this very project",
         deltaTime: 0,
-        latinNotes: [
-            "rerum cognoscere causas", "to learn the", "causes of things"
-        ],
+        latinNotes: ["Rerum cognoscere causas."],
+        latinTranslation: ["To learn the", "causes of things."],
     },
 
     {
@@ -330,9 +355,8 @@ export const myData = [
         glucose: 74,
         notes: "kept working on this",
         deltaTime: 0,
-        latinNotes: [
-            "semper fidelis", "always faithful"
-        ],
+        latinNotes: ["Semper fidelis."],
+        latinTranslation: ["Always faithful."],
     },
 
 
@@ -345,7 +369,13 @@ export const myData = [
         notes: "slept four hours",
         deltaTime: 0,
         latinNotes: [
-            "ubi solitudinem faciunt,", "pacem appellant", "where they make", "a wasteland,", "they call it peace"
+            "Ubi solitudinem faciunt,",
+            "pacem appellant.",
+        ],
+        latinTranslation: [
+            "Where they make",
+            "a wasteland,",
+            "they call it peace."
         ],
     },
 
@@ -377,8 +407,14 @@ export const myData = [
         deltaTime: 0,
         latinNotes: [
             "Scire tuum nihil est,",
-            "nisi te scire hoc", "sciat alter.",
-            "Your knowledge is", "nothing when no one", "else knows that you", "know it."
+            "nisi te scire hoc",
+            "sciat alter.",
+        ],
+        latinTranslation: [
+            "Your knowledge is",
+            "nothing when no one",
+            "else knows that you",
+            "know it."
         ],
     },
     // {
@@ -405,8 +441,12 @@ export const myData = [
         glucose: 103,
         notes: "Walked to target, bought heater, walked back. Walked to Publix, bought Monk Fruit and discounted Halloween bowls to replant my rattlesnake and the little lemon and grapefruit trees. Oh, and cute napkins :) The rise in glucose was a reaction to physical effort.",
         latinNotes: [
-            "Verba docent,", "exempla trahunt.",
-            " Words instruct,", "illustrations lead."
+            "Verba docent,",
+            "exempla trahunt.",
+        ],
+        latinTranslation: [
+            "Words instruct,",
+            "illustrations lead."
         ],
     },
 
@@ -427,10 +467,8 @@ export const myData = [
         glucose: 72,
         notes: "Pear liqueur, home made. Took a sip, it's really good, but I didn't feel like drinking. Some other time.",
         deltaTime: 0,
-        latinNotes: [
-            "Sapere aude.",
-            "Dare to be wise."
-        ],
+        latinNotes: ["Sapere aude."],
+        latinTranslation: ["Dare to be wise."],
 
     },
     {
@@ -442,8 +480,14 @@ export const myData = [
         notes: "just woke up",
         deltaTime: 0,
         latinNotes: [
-            "Nihil est opertum quod", "non revelabitur,et occultum", "quod non scietur.",
-            "Everyting hidden will", "be made known."
+            "Nihil est opertum quod",
+            "non revelabitur, et occultum",
+            "quod non scietur.",
+
+        ],
+        latinTranslation: [
+            "Everyting hidden will",
+            "be made known."
         ],
     },
     {
@@ -455,9 +499,12 @@ export const myData = [
         notes: "23rd consecutive day with zero calories. I've been surviving on expresso ice cubes so far.",
         deltaTime: 0,
         latinNotes: [
-            "Qui scribit, bis legit",
-            "Who writes, reads twice",
+            "Qui scribit, bis legit.",
         ],
+        latinTranslation: [
+            "Who writes, reads twice.",
+        ],
+
     },
     {
         date: "2023-11-07T07:30:00.000Z",
@@ -468,7 +515,13 @@ export const myData = [
         notes: "24th day. Played with Chart.js all night.",
         deltaTime: 0,
         latinNotes: [
-            "Nihil ægrius quam", "disciplinam accipimus.", "We receive nothing with", "so much reluctance", "as instruction."
+            "Nihil ægrius quam",
+            "disciplinam accipimus.",
+        ],
+        latinTranslation: [
+            "We receive nothing with",
+            "so much reluctance",
+            "as instruction."
         ],
     },
     {
@@ -480,7 +533,10 @@ export const myData = [
         notes: "29th day. Slept ery well after working on Project 1. I will finalize after I enter this data point. I moved around, I drank a mug of coffee of reasonable size, but the coffee was unreasonably good, Illy, my absolute favorite, both filter and expresso varieties. Added three packs of Monk Fruit ",
         deltaTime: 0,
         latinNotes: [
-            "Learn to labor", "and to wait."
+            "Suum cuique."
+        ],
+        latinTranslation: [
+            "To each their own."
         ],
     },
 
@@ -492,9 +548,8 @@ export const myData = [
         glucose: 87,
         notes: "Published LineBmi; Radar is almost ready, needs styles. 30th day of fasting. I was actiwe though, focused, got things done. I don't know how much punishment my body can take",
         deltaTime: 0,
-        latinNotes: [
-            "Bona fide.", "In good faith."
-        ],
+        latinNotes: ["Bona fide."],
+        latinTranslation: ["In good faith."],
     },
 
     {
@@ -505,9 +560,9 @@ export const myData = [
         glucose: 80,
         notes: "day 35 maybe, I lost track",
         deltaTime: 0,
-        latinNotes: [
-            "Dum vita est, spes est.", "While there is life, there's hope."
-        ],
+        latinNotes: ["Dum vita est, spes est."],
+        latinTranslation: [
+            "While there is life, there's hope."],
     },
 
 
@@ -519,11 +574,22 @@ export const myData = [
         glucose: 81,
         notes: "Day 36 of absolutely no food. I'm not een hungry anymore",
         deltaTime: 0,
-        latinNotes: [
-            "Humilitas occidit superbiam.", "Humility conquers pride."
-        ],
+        latinNotes: ["Humilitas occidit superbiam."],
+        latinTranslation: ["Humility conquers pride."],
     },
 
+
+    {
+        date: "2023-11-19T15:30:00.000Z",
+        timestamp: 1700407800,
+        label: "Nov 19",
+        pounds: 108.6,
+        glucose: 78,
+        notes: "Day 38th of fasting. My brain wants food, I want to sleep forever.",
+        deltaTime: 0,
+        latinNotes: ["Bono malum superate."],
+        latinTranslation: ["Overcome evil with good."],
+    },
 
 
     //["Pax vobiscum.", "Peace [be] with you."],
@@ -537,8 +603,6 @@ export const myData = [
     // ['Ad meliora.', 'Towards better things.']
     // ['Quam bene non quantum.', 'How well, not how much.']
     // ['Vincit qui patitur.', 'He conquers who endures.]'
-    // ['Suum cuique.', 'To each his own.']
-    // ['Bono malum superate.', 'Overcome evil with good.']
     // ['Memores acti prudentes future.', 'Mindful of what has been done, aware of what will be.']
     // ['Praesis ut prosis ne ut imperes.', 'Lead in order to serve, not in order to rule.']
     // ['Incepto ne desistam.', 'May I not shrink from my purpose.']

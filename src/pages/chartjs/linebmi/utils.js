@@ -70,6 +70,11 @@ export function getLatinNotes(obj) {
 }
 
 
+export function getLatinTranslation(obj) {
+    let result = obj.map(a => a.latinTranslation)
+    return result
+}
+
 
 
 

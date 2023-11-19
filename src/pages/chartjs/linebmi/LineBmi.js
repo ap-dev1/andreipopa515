@@ -2,7 +2,7 @@ import React from 'react';
 import { parse } from "html-react-parser";
 
 import { Line } from "react-chartjs-2";
-import { getLabels, getValues, getDates, getStamps, getPounds, getGlucose, getNotes, getCustomLabels, getLatinNotes } from './utils';
+import { getLabels, getValues, getDates, getStamps, getPounds, getGlucose, getNotes, getCustomLabels, getLatinNotes, getLatinTranslation } from './utils';
 import { myData } from './myData';
 
 import { chartElements } from './elements';
@@ -20,6 +20,7 @@ const glucose = getGlucose(myData)
 const labels = getLabels(myData)
 const notes = getNotes(myData)
 const latinNotes = getLatinNotes(myData)
+const latinTranslation = getLatinTranslation(myData)
 
 const height = "6'3"
 const cm = "191cm" // 1cm = 0.3937008 in
@@ -121,6 +122,7 @@ const dataWeight = {
             data: pounds,
             notes: notes,
             latinNotes: latinNotes,
+            latinTranslation: latinTranslation,
             kg: kg,
             bmi: bmi
         },

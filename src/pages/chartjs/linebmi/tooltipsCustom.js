@@ -113,22 +113,16 @@ const afterBody = (tooltipItems) => {
     tooltipItems.forEach(function (tooltipItem) {
         latinNotes = tooltipItem.dataset.latinNotes[tooltipItem.dataIndex]
     });
-
     return latinNotes;
-
 };
 
-
-//--------------------------------------------------------------
-// const footer = (tooltipItems) => {
-//     let aa;
-//     tooltipItems.forEach(function (tooltipItem) {
-//         aa = tooltipItem.formattedValue
-//     });
-//     return aa + ' lbs' + ' (footer)';
-// };
-
-
+const footer = (tooltipItems) => {
+    let translations;
+    tooltipItems.forEach(function (tooltipItem) {
+        translations = tooltipItem.dataset.latinTranslation[tooltipItem.dataIndex]
+    });
+    return translations;
+};
 
 //============================================================
 // const label = (tooltipItems) => {
@@ -196,7 +190,7 @@ export const chartTooltipsCustom = {
         //beforeBody: beforeBody,
         afterBody: afterBody,
         //label: label,
-        //footer: footer,
+        footer: footer,
     },
 
 };
